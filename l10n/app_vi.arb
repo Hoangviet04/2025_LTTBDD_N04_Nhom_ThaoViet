@@ -1,0 +1,36 @@
+{
+  "@@locale": "vi",
+  "helloWorld": "Chào thế giới!",
+  "bottomNavBarHome": "Trang chủ",
+  "bottomNavBarDictionary": "Kho từ",
+  "bottomNavBarActivity": "Hoạt động",
+  "bottomNavBarUser": "Thành viên",
+  "userScreenTitle": "Thông tin thành viên",
+  "userScreenStudentID": "MSSV",
+  "userScreenRole": "Chức vụ",
+  "home_seeMore": "Xem thêm",
+  "home_learnThrough": "Học qua",
+  "home_streakProgress": "Chuỗi ngày & Tiến độ",
+  "home_reviewToday": "Ôn tập hôm nay",
+  "home_hello": "Xin chào {username}!",
+  "@home_hello": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "home_greeting": "Chúc một ngày tốt lành!",
+  "home_songs": "Bài hát",
+  "home_videos": "Video",
+  "home_vocabSet": "Bộ từ vựng",
+  "home_shortFilms": "Phim ngắn",
+  "home_podcasts": "Podcast",
+  "home_news": "Tin tức",
+  "home_streakMessage": "Tiếp tục duy trì chuỗi ngày của bạn!",
+  "home_streakDetail": "Ngày liên tiếp",
+  "home_todayTask": "Nhiệm vụ hôm nay",
+  "home_startButton": "Bắt đầu",
+  "home_reviewMessage": "Không có từ nào cần ôn tập hôm nay",
+  "home_hotWordsToday": "Từ nóng hôm nay"
+}

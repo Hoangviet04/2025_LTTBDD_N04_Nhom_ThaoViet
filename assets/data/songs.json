@@ -1,0 +1,22 @@
+[
+    {
+        "id": "s1",
+        "title": "Wheels on the Bus",
+        "artist": "CoComelon",
+        "views": "8.1B",
+        "numberOfLessons": 0,
+        "genre": "Kids",
+        "audioUrl": "https://example.com/audio/s1",
+        "imageUrl": "https://placehold.co/600x400/FFF8C4/333?text=Song+1+Img"
+    },
+    {
+        "id": "s2",
+        "title": "See You Again",
+        "artist": "Wiz Khalifa",
+        "views": "6.6B",
+        "numberOfLessons": 1,
+        "genre": "Pop",
+        "audioUrl": "https://example.com/audio/s2",
+        "imageUrl": "https://placehold.co/600x400/D4D4D4/333?text=Song+2+Img"
+    }
+]

@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:vibeng/l10n/app_localizations.dart';
 
 class BottomNavBar extends StatelessWidget {
   final int currentIndex;
   final Function(int) onTap;
 
   const BottomNavBar({
-    Key? key,
+    super.key,
     required this.currentIndex,
     required this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -19,22 +20,22 @@ class BottomNavBar extends StatelessWidget {
       selectedItemColor: Theme.of(context).primaryColor,
       unselectedItemColor: Theme.of(context).colorScheme.secondary,
       showUnselectedLabels: true,
-      items: const [
+      items: [
         BottomNavigationBarItem(
           icon: Icon(Icons.home),
-          label: "Trang chủ",
+          label: AppLocalizations.of(context)!.bottomNavBarHome,
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.bookmark),
-          label: "Kho từ",
+          label: AppLocalizations.of(context)!.bottomNavBarDictionary,
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.show_chart),
-          label: "Hoạt động",
+          label: AppLocalizations.of(context)!.bottomNavBarActivity,
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.person),
-          label: "Thành viên",
+          label: AppLocalizations.of(context)!.bottomNavBarUser,
         ),
       ],
     );

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DictionaryScreen extends StatelessWidget {
-  const DictionaryScreen({Key? key}) : super(key: key);
+  const DictionaryScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

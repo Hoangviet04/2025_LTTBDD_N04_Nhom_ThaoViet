@@ -1,0 +1,18 @@
+[
+    {
+        "id": "w1",
+        "text": "ask",
+        "pronunciation": "/æsk/",
+        "meaning": "hỏi",
+        "saveCount": 44,
+        "imageUrl": "[https://placehold.co/400x400/D4D4D4/333?text=ask](https://placehold.co/400x400/D4D4D4/333?text=ask)"
+    },
+    {
+        "id": "w2",
+        "text": "love",
+        "pronunciation": "/lʌv/",
+        "meaning": "tình yêu",
+        "saveCount": 40,
+        "imageUrl": "[https://placehold.co/400x400/FFD4D4/333?text=love](https://placehold.co/400x400/FFD4D4/333?text=love)"
+    }
+]

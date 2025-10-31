@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:vibeng/l10n/app_localizations.dart';
 
 class UserScreen extends StatelessWidget {
-  const UserScreen({Key? key}) : super(key: key);
+  const UserScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Thông tin thành viên'),
-        backgroundColor: Theme.of(
-          context,
-        ).primaryColor,
+        title: Text(AppLocalizations.of(context)!.userScreenTitle),
+        backgroundColor: Theme.of(context).primaryColor,
       ),
       body: ListView(
         padding: const EdgeInsets.all(16.0),
-        children: const [
+        children: [
           MemberCard(
             imagePath: 'imgs/cat1.jpg',
             name: 'Nguyễn Thị Thu Thảo',
@@ -41,47 +40,38 @@ class MemberCard extends StatelessWidget {
   final String role;
 
   const MemberCard({
-    Key? key,
+    super.key,
     required this.imagePath,
     required this.name,
     required this.studentId,
     required this.role,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
     return Card(
       elevation: 4,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(10),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Row(
           children: [
             ClipRRect(
-              borderRadius: BorderRadius.circular(
-                8.0,
-              ),
+              borderRadius: BorderRadius.circular(8.0),
               child: Image.asset(
                 imagePath,
                 width: 80,
                 height: 80,
                 fit: BoxFit.cover,
-                errorBuilder:
-                    (context, error, stackTrace) {
-                      return const Icon(
-                        Icons.person,
-                        size: 80,
-                      );
-                    },
+                errorBuilder: (context, error, stackTrace) {
+                  return const Icon(Icons.person, size: 80);
+                },
               ),
             ),
             const SizedBox(width: 16),
             Expanded(
               child: Column(
-                crossAxisAlignment:
-                    CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     name,
@@ -91,9 +81,13 @@ class MemberCard extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 4),
-                  Text('MSSV: $studentId'),
+                  Text(
+                    '${AppLocalizations.of(context)!.userScreenStudentID}: $studentId',
+                  ),
                   const SizedBox(height: 4),
-                  Text('Chức vụ: $role'),
+                  Text(
+                    '${AppLocalizations.of(context)!.userScreenRole}: $role',
+                  ),
                 ],
               ),
             ),

@@ -1,0 +1,36 @@
+{
+  "@@locale": "en",
+  "helloWorld": "Hello World!",
+  "bottomNavBarHome": "Home",
+  "bottomNavBarDictionary": "Word Store",
+  "bottomNavBarActivity": "Activity",
+  "bottomNavBarUser": "User",
+  "userScreenTitle": "User Information",
+  "userScreenStudentID": "ID",
+  "userScreenRole": "Role",
+  "home_seeMore": "See more",
+  "home_learnThrough": "Learn Through",
+  "home_streakProgress": "Streak & Progress",
+  "home_reviewToday": "Review Today",
+  "home_hello": "Hello {username}",
+  "@home_hello": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "home_greeting": "Good morning!",
+  "home_songs": "Songs",
+  "home_videos": "Videos",
+  "home_vocabSet": "Vocab Set",
+  "home_shortFilms": "Short Films",
+  "home_podcasts": "Podcasts",
+  "home_news": "News",
+  "home_streakMessage": "Keep your streak going!",
+  "home_streakDetail": "Day streak",
+  "home_todayTask": "Today's Task",
+  "home_startButton": "Start",
+  "home_reviewMessage": "No words to review today",
+  "home_hotWordsToday": "Hot Words Today"
+}
