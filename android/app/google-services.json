@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "620561442809",
+    "project_id": "vibeng-34731",
+    "storage_bucket": "vibeng-34731.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620561442809:android:497a61e6bad561b47eff28",
+        "android_client_info": {
+          "package_name": "com.example.vibeng"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC12kt6Vw2ewj3lSKWyTGrVFx9NX76ri8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
