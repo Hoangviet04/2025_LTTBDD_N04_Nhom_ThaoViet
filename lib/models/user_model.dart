@@ -32,14 +32,26 @@ class StreakDay {
   StreakDay({required this.day, required this.done});
 
   factory StreakDay.fromJson(Map<String, dynamic> json) {
-    return StreakDay(day: json["day"], done: json["done"]);
+    final dynamic doneValue = json["done"];
+    final bool doneBool = (doneValue is bool) ? doneValue : false;
+    return StreakDay(day: json["day"], done: doneBool);
   }
 }
 
 List<UserDataModel> userModelFromJson(String str) {
-  final List<dynamic> jsonData = json.decode(str);
+  final dynamic decoded = json.decode(str);
+
+  final List<dynamic> jsonData;
+  if (decoded is List) {
+    jsonData = decoded;
+  } else if (decoded is Map) {
+    jsonData = [decoded];
+  } else {
+    throw FormatException('Unexpected JSON structure for user data');
+  }
+
   final List<UserDataModel> userDataList = jsonData.map((item) {
-    return UserDataModel.fromJson(item);
+    return UserDataModel.fromJson(Map<String, dynamic>.from(item));
   }).toList();
   return userDataList;
 }

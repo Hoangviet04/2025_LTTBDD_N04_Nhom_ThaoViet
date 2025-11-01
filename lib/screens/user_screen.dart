@@ -15,14 +15,14 @@ class UserScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         children: [
           MemberCard(
-            imagePath: 'imgs/cat1.jpg',
+            imagePath: 'assets/imgs/cat1.jpg',
             name: 'Nguyễn Thị Thu Thảo',
             studentId: '22010496',
             role: 'Trưởng nhóm',
           ),
           SizedBox(height: 16),
           MemberCard(
-            imagePath: 'imgs/cat2.jpg',
+            imagePath: 'assets/imgs/cat2.jpg',
             name: 'Đinh Hoàng Việt',
             studentId: '22010354',
             role: 'Thành viên',

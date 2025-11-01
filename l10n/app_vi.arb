@@ -12,7 +12,7 @@
   "home_learnThrough": "Học qua",
   "home_streakProgress": "Chuỗi ngày & Tiến độ",
   "home_reviewToday": "Ôn tập hôm nay",
-  "home_hello": "Xin chào {username}!",
+  "home_hello": "Xin chào {username},",
   "@home_hello": {
     "placeholders": {
       "username": {
@@ -32,5 +32,6 @@
   "home_todayTask": "Nhiệm vụ hôm nay",
   "home_startButton": "Bắt đầu",
   "home_reviewMessage": "Không có từ nào cần ôn tập hôm nay",
-  "home_hotWordsToday": "Từ nóng hôm nay"
+  "home_hotWordsToday": "Từ nóng hôm nay",
+  "home_error": "Lỗi tải dữ liệu"
 }

@@ -12,7 +12,7 @@
   "home_learnThrough": "Learn Through",
   "home_streakProgress": "Streak & Progress",
   "home_reviewToday": "Review Today",
-  "home_hello": "Hello {username}",
+  "home_hello": "Hello {username},",
   "@home_hello": {
     "placeholders": {
       "username": {
@@ -32,5 +32,6 @@
   "home_todayTask": "Today's Task",
   "home_startButton": "Start",
   "home_reviewMessage": "No words to review today",
-  "home_hotWordsToday": "Hot Words Today"
+  "home_hotWordsToday": "Hot Words Today",
+  "home_error": "Error loading data"
 }

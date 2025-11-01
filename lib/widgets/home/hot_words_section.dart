@@ -14,47 +14,56 @@ class HotWordsSection extends StatefulWidget {
 
 class _HotWordsSectionState extends State<HotWordsSection> {
   final MediaRepository _repository = MediaRepository();
-  late Future<List<WordModel>> _hotWordsFuture;
+  List<WordModel>? hotWords;
+  bool isLoading = true;
 
   @override
   void initState() {
     super.initState();
-    _hotWordsFuture = _repository.getHotWords();
+    loadHotWords();
+  }
+
+  Future<void> loadHotWords() async {
+    try {
+      final data = await _repository.getHotWords();
+      setState(() {
+        hotWords = data;
+        isLoading = false;
+      });
+    } catch (_) {
+      setState(() {
+        hotWords = const [];
+        isLoading = false;
+      });
+    }
   }
 
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder<List<WordModel>>(
-      future: _hotWordsFuture,
-      builder: (context, snapshot) {
-        if (snapshot.connectionState == ConnectionState.waiting) {
-          return Container(height: 200, color: Colors.grey[200]);
-        }
-        if (!snapshot.hasData || snapshot.data!.isEmpty) {
-          return const SizedBox.shrink();
-        }
+    if (isLoading) {
+      return Container(height: 200, color: Colors.grey[200]);
+    }
+    if (hotWords == null || hotWords!.isEmpty) {
+      return const SizedBox.shrink();
+    }
 
-        final words = snapshot.data!;
+    final words = hotWords!;
 
-        return Column(
-          children: [
-            SectionHeader(
-              title: AppLocalizations.of(context)!.home_hotWordsToday,
-            ),
-            SizedBox(
-              height: 200,
-              child: ListView.builder(
-                scrollDirection: Axis.horizontal,
-                itemCount: words.length,
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                itemBuilder: (context, index) {
-                  return HotWordCard(word: words[index]);
-                },
-              ),
-            ),
-          ],
-        );
-      },
+    return Column(
+      children: [
+        SectionHeader(title: AppLocalizations.of(context)!.home_hotWordsToday),
+        SizedBox(
+          height: 200,
+          child: ListView.builder(
+            scrollDirection: Axis.horizontal,
+            itemCount: words.length,
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            itemBuilder: (context, index) {
+              return HotWordCard(word: words[index]);
+            },
+          ),
+        ),
+      ],
     );
   }
 }

@@ -46,7 +46,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String home_hello(String username) {
-    return 'Hello $username';
+    return 'Hello $username,';
   }
 
   @override
@@ -87,4 +87,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get home_hotWordsToday => 'Hot Words Today';
+
+  @override
+  String get home_error => 'Error loading data';
 }

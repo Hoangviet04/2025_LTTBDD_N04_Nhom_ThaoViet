@@ -1,0 +1,28 @@
+{
+    "username": "theo",
+    "streak": 2,
+    "streakDays": [
+        {
+            "day": "Mon"
+        },
+        {
+            "day": "Tue"
+        },
+        {
+            "day": "Wed"
+        },
+        {
+            "day": "Thu"
+        },
+        {
+            "day": "Fri"
+        },
+        {
+            "day": "Sat"
+        },
+        {
+            "day": "Sun"
+        }
+    ],
+    "reviewCount": 0
+}

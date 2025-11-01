@@ -173,7 +173,7 @@ abstract class AppLocalizations {
   /// No description provided for @home_hello.
   ///
   /// In en, this message translates to:
-  /// **'Hello {username}'**
+  /// **'Hello {username},'**
   String home_hello(String username);
 
   /// No description provided for @home_greeting.
@@ -253,6 +253,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Hot Words Today'**
   String get home_hotWordsToday;
+
+  /// No description provided for @home_error.
+  ///
+  /// In en, this message translates to:
+  /// **'Error loading data'**
+  String get home_error;
 }
 
 class _AppLocalizationsDelegate

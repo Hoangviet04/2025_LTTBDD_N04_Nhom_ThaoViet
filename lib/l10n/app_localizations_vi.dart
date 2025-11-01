@@ -46,7 +46,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String home_hello(String username) {
-    return 'Xin chào $username!';
+    return 'Xin chào $username,';
   }
 
   @override
@@ -87,4 +87,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get home_hotWordsToday => 'Từ nóng hôm nay';
+
+  @override
+  String get home_error => 'Lỗi tải dữ liệu';
 }

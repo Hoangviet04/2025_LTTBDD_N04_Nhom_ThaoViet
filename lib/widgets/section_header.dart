@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vibeng/l10n/app_localizations.dart';
+import 'package:vibeng/theme.dart';
 
 class SectionHeader extends StatelessWidget {
   final String title;
@@ -15,21 +16,20 @@ class SectionHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final textTheme = Theme.of(context).textTheme;
-    final colorScheme = Theme.of(context).colorScheme;
+    final textTheme = Theme.of(context).textTheme.headlineLarge;
 
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+      padding: defaultPadding,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(title, style: textTheme.titleLarge),
+          Text(title, style: textTheme),
           if (showSeeMore)
             TextButton(
               onPressed: onSeeMore,
               child: Text(
                 AppLocalizations.of(context)!.home_seeMore.toUpperCase(),
-                style: TextStyle(color: colorScheme.primary),
+                style: TextStyle(color: Theme.of(context).primaryColor),
               ),
             ),
         ],
