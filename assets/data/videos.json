@@ -7,7 +7,7 @@
         "videoTime": "10:32",
         "topic": "English Podcast",
         "videoUrl": "https://example.com/video/v1",
-        "imageUrl": "https://placehold.co/600x400/FFF0E5/333?text=Video+1+Img"
+        "imageUrl": "assets/imgs/wakeup.jpg"
     },
     {
         "id": "v2",
@@ -17,6 +17,6 @@
         "videoTime": "05:15",
         "topic": "Conversation",
         "videoUrl": "https://example.com/video/v2",
-        "imageUrl": "https://placehold.co/600x400/E5F0FF/333?text=Video+2+Img"
+        "imageUrl": "assets/imgs/ask.jpg"
     }
 ]

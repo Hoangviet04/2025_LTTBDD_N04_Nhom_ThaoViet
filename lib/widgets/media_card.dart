@@ -24,6 +24,8 @@ class MediaCard extends StatelessWidget {
       width: width,
       margin: const EdgeInsets.only(right: 12),
       child: Card(
+        clipBehavior: Clip.hardEdge,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -33,13 +35,9 @@ class MediaCard extends StatelessWidget {
                 SizedBox(
                   height: 124,
                   width: double.infinity,
-                  child: Image.network(
+                  child: Image.asset(
                     item.imageUrl,
                     fit: BoxFit.cover,
-                    loadingBuilder: (context, child, loadingProgress) {
-                      if (loadingProgress == null) return child;
-                      return const Center(child: CircularProgressIndicator());
-                    },
                     errorBuilder: (context, error, stackTrace) {
                       return Container(
                         color: Colors.grey[200],
@@ -59,7 +57,7 @@ class MediaCard extends StatelessWidget {
                       vertical: 2,
                     ),
                     decoration: BoxDecoration(
-                      color: Colors.black.withOpacity(0.7),
+                      color: Colors.grey.withOpacity(0.6),
                       borderRadius: BorderRadius.circular(4),
                     ),
                     child: Text(
@@ -74,7 +72,6 @@ class MediaCard extends StatelessWidget {
               ],
             ),
 
-            // Phần text
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.all(12.0),
@@ -83,7 +80,7 @@ class MediaCard extends StatelessWidget {
                   children: [
                     Text(
                       displayTopic,
-                      style: textTheme.labelSmall?.copyWith(color: Colors.grey),
+                      style: textTheme.titleSmall,
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                     ),

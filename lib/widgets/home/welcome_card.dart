@@ -24,10 +24,12 @@ class _WelcomeCardState extends State<WelcomeCard> {
 
   Future<void> loadUserData() async {
     final data = await repository.getUserData();
-    setState(() {
-      userDataList = data;
-      isLoading = false;
-    });
+    if (mounted) {
+      setState(() {
+        userDataList = data;
+        isLoading = false;
+      });
+    }
   }
 
   @override

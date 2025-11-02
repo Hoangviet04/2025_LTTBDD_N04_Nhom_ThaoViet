@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:vibeng/main.dart';
 import 'package:vibeng/widgets/home/home_song_section.dart';
 import 'package:vibeng/widgets/home/home_video_section.dart';
-import 'package:vibeng/widgets/home/hot_words_section.dart';
 import 'package:vibeng/widgets/home/learning_choice_section.dart';
 
 import 'package:vibeng/widgets/home/streak_card.dart';
 import 'package:vibeng/widgets/home/welcome_card.dart';
+import 'package:vibeng/widgets/hot_word_list.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -75,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 16),
             const StreakCard(),
             const SizedBox(height: 16),
-            const HotWordsSection(),
+            const HotWordList(),
             const SizedBox(height: 16),
             const HomeVideoSection(),
             const SizedBox(height: 16),
