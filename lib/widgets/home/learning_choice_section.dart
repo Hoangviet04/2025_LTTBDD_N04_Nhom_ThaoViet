@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vibeng/l10n/app_localizations.dart';
+import 'package:vibeng/screens/learn_songs_screen.dart';
+import 'package:vibeng/screens/learn_videos_screen.dart';
 import 'package:vibeng/widgets/section_header.dart';
 
 class LearningChoiceSection extends StatelessWidget {
@@ -25,13 +27,25 @@ class LearningChoiceSection extends StatelessWidget {
         const Color.fromARGB(255, 212, 251, 177),
         const Color(0xFFE8F5E9),
         Colors.green[700]!,
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const LearnSongsScreen()),
+          );
+        },
       ),
       GridItem(
         l10n.home_videos,
         Icons.videocam,
         const Color.fromARGB(255, 255, 199, 199),
         const Color(0xFFFFEBEE),
-        Colors.red[700]!,
+        Colors.red,
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const LearnVideosScreen()),
+          );
+        },
       ),
       GridItem(
         l10n.home_vocabSet,
@@ -49,22 +63,29 @@ class LearningChoiceSection extends StatelessWidget {
       crossAxisSpacing: 15,
       padding: const EdgeInsets.symmetric(horizontal: 16),
       children: items.map((item) {
-        return Container(
-          decoration: BoxDecoration(
-            color: item.color,
-            borderRadius: BorderRadius.circular(25),
-          ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              CircleAvatar(
-                radius: 24,
-                backgroundColor: item.iconBackgroundColor,
-                child: Icon(item.icon, size: 28, color: item.iconColor),
-              ),
-              const SizedBox(height: 12),
-              Text(item.title, style: Theme.of(context).textTheme.titleMedium),
-            ],
+        return InkWell(
+          onTap: item.onTap,
+          borderRadius: BorderRadius.circular(25),
+          child: Container(
+            decoration: BoxDecoration(
+              color: item.color,
+              borderRadius: BorderRadius.circular(25),
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                CircleAvatar(
+                  radius: 24,
+                  backgroundColor: item.iconBackgroundColor,
+                  child: Icon(item.icon, size: 28, color: item.iconColor),
+                ),
+                const SizedBox(height: 12),
+                Text(
+                  item.title,
+                  style: Theme.of(context).textTheme.titleMedium,
+                ),
+              ],
+            ),
           ),
         );
       }).toList(),
@@ -78,12 +99,14 @@ class GridItem {
   final Color color;
   final Color iconBackgroundColor;
   final Color iconColor;
+  final VoidCallback? onTap;
 
   GridItem(
     this.title,
     this.icon,
     this.color,
     this.iconBackgroundColor,
-    this.iconColor,
-  );
+    this.iconColor, {
+    this.onTap,
+  });
 }

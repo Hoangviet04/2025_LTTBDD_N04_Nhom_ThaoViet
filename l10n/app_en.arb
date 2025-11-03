@@ -33,5 +33,6 @@
   "home_startButton": "Start",
   "home_reviewMessage": "No words to review today",
   "home_hotWordsToday": "Hot Words Today",
-  "home_error": "Error loading data"
+  "home_error": "Error loading data",
+  "button_search_video": "Search video, topic"
 }

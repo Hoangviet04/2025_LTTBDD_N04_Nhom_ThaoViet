@@ -90,4 +90,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get home_error => 'Lỗi tải dữ liệu';
+
+  @override
+  String get button_search_video => 'Tìm video, chủ đề';
 }

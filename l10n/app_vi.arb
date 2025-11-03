@@ -33,5 +33,6 @@
   "home_startButton": "Bắt đầu",
   "home_reviewMessage": "Không có từ nào cần ôn tập hôm nay",
   "home_hotWordsToday": "Từ nóng hôm nay",
-  "home_error": "Lỗi tải dữ liệu"
+  "home_error": "Lỗi tải dữ liệu",
+  "button_search_video": "Tìm video, chủ đề"
 }

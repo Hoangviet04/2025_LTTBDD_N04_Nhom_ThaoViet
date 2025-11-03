@@ -90,4 +90,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get home_error => 'Error loading data';
+
+  @override
+  String get button_search_video => 'Search video, topic';
 }

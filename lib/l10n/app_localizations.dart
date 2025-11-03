@@ -259,6 +259,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Error loading data'**
   String get home_error;
+
+  /// No description provided for @button_search_video.
+  ///
+  /// In en, this message translates to:
+  /// **'Search video, topic'**
+  String get button_search_video;
 }
 
 class _AppLocalizationsDelegate
