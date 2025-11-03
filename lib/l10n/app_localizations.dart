@@ -265,6 +265,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Search video, topic'**
   String get button_search_video;
+
+  /// No description provided for @video_hot_list_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Trending'**
+  String get video_hot_list_title;
+
+  /// No description provided for @num_lessons.
+  ///
+  /// In en, this message translates to:
+  /// **'number of lessons'**
+  String get num_lessons;
+
+  /// No description provided for @video_topic_all.
+  ///
+  /// In en, this message translates to:
+  /// **'Learning by topics'**
+  String get video_topic_all;
 }
 
 class _AppLocalizationsDelegate

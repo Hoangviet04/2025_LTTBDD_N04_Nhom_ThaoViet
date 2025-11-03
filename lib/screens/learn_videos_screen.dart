@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:vibeng/l10n/app_localizations.dart';
 import 'package:vibeng/theme.dart';
+import 'package:vibeng/widgets/videos/video_topic.dart';
+import 'package:vibeng/widgets/videos/video_trending_list.dart';
 
 class LearnVideosScreen extends StatelessWidget {
   const LearnVideosScreen({super.key});
@@ -46,9 +48,12 @@ class LearnVideosScreen extends StatelessWidget {
             ),
           ),
           child: Center(
-            child: Text(
-              l10n.home_videos,
-              style: Theme.of(context).textTheme.headlineLarge,
+            child: Column(
+              children: [
+                VideoTrendingList(),
+                const SizedBox(height: 20),
+                VideoTopics(),
+              ],
             ),
           ),
         ),

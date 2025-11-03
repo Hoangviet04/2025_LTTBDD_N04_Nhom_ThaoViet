@@ -93,4 +93,13 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get button_search_video => 'Search video, topic';
+
+  @override
+  String get video_hot_list_title => 'Trending';
+
+  @override
+  String get num_lessons => 'number of lessons';
+
+  @override
+  String get video_topic_all => 'Learning by topics';
 }

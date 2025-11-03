@@ -34,5 +34,8 @@
   "home_reviewMessage": "Không có từ nào cần ôn tập hôm nay",
   "home_hotWordsToday": "Từ nóng hôm nay",
   "home_error": "Lỗi tải dữ liệu",
-  "button_search_video": "Tìm video, chủ đề"
+  "button_search_video": "Tìm video, chủ đề",
+  "video_hot_list_title": "Đang thịnh hành",
+  "num_lessons": "lượt học",
+  "video_topic_all": "Học theo chủ đề"
 }

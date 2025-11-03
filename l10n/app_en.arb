@@ -34,5 +34,8 @@
   "home_reviewMessage": "No words to review today",
   "home_hotWordsToday": "Hot Words Today",
   "home_error": "Error loading data",
-  "button_search_video": "Search video, topic"
+  "button_search_video": "Search video, topic",
+  "video_hot_list_title": "Trending",
+  "num_lessons": "number of lessons",
+  "video_topic_all": "Learning by topics"
 }

@@ -93,4 +93,13 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get button_search_video => 'Tìm video, chủ đề';
+
+  @override
+  String get video_hot_list_title => 'Đang thịnh hành';
+
+  @override
+  String get num_lessons => 'lượt học';
+
+  @override
+  String get video_topic_all => 'Học theo chủ đề';
 }
