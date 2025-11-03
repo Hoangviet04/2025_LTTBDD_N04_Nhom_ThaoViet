@@ -33,5 +33,14 @@
   "home_startButton": "Start",
   "home_reviewMessage": "No words to review today",
   "home_hotWordsToday": "Hot Words Today",
-  "home_error": "Error loading data"
+  "home_error": "Error loading data",
+  "teamInfo": "Team Info",
+  "logout": "Logout",
+  "teamLead": "Team Lead",
+  "member": "Member",
+  "studentId": "Student ID",
+  "role": "Role",
+  "phoneNumber": "Phone",
+  "email": "Email",
+  "address": "Address"
 }

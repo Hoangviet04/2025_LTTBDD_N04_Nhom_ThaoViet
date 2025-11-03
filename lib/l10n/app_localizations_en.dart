@@ -90,4 +90,31 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get home_error => 'Error loading data';
+
+  @override
+  String get teamInfo => 'Team Info';
+
+  @override
+  String get logout => 'Logout';
+
+  @override
+  String get teamLead => 'Team Lead';
+
+  @override
+  String get member => 'Member';
+
+  @override
+  String get studentId => 'Student ID';
+
+  @override
+  String get role => 'Role';
+
+  @override
+  String get phoneNumber => 'Phone';
+
+  @override
+  String get email => 'Email';
+
+  @override
+  String get address => 'Address';
 }

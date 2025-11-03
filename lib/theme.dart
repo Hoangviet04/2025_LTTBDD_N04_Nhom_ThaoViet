@@ -2,15 +2,35 @@ import 'package:flutter/material.dart';
 
 const Color primaryColor = Color(0xFF39c3b9);
 const Color secondaryColor = Colors.grey;
+const Color buttonColor = Color.fromARGB(
+  255,
+  234,
+  232,
+  230,
+);
 
 final ThemeData appTheme = ThemeData(
   primaryColor: primaryColor,
-  colorScheme: ColorScheme.fromSwatch().copyWith(secondary: secondaryColor),
+  colorScheme: ColorScheme.fromSwatch().copyWith(
+    secondary: secondaryColor,
+  ),
   textTheme: const TextTheme(
-    headlineLarge: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-    titleLarge: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-    titleMedium: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-    titleSmall: TextStyle(fontSize: 14, color: secondaryColor),
+    headlineLarge: TextStyle(
+      fontSize: 20,
+      fontWeight: FontWeight.bold,
+    ),
+    titleLarge: TextStyle(
+      fontSize: 18,
+      fontWeight: FontWeight.bold,
+    ),
+    titleMedium: TextStyle(
+      fontSize: 16,
+      fontWeight: FontWeight.bold,
+    ),
+    titleSmall: TextStyle(
+      fontSize: 14,
+      color: secondaryColor,
+    ),
   ),
 
   appBarTheme: const AppBarTheme(
@@ -22,8 +42,10 @@ final ThemeData appTheme = ThemeData(
   ),
 );
 
-const EdgeInsets defaultPadding = EdgeInsets.symmetric(
-  horizontal: 16,
-  vertical: 10,
-);
-const EdgeInsets defaultMargin = EdgeInsets.symmetric(horizontal: 16.0);
+const EdgeInsets defaultPadding =
+    EdgeInsets.symmetric(
+      horizontal: 16,
+      vertical: 10,
+    );
+const EdgeInsets defaultMargin =
+    EdgeInsets.symmetric(horizontal: 16.0);

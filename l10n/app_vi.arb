@@ -4,8 +4,8 @@
   "bottomNavBarHome": "Trang chủ",
   "bottomNavBarDictionary": "Kho từ",
   "bottomNavBarActivity": "Hoạt động",
-  "bottomNavBarUser": "Thành viên",
-  "userScreenTitle": "Thông tin thành viên",
+  "bottomNavBarUser": "Người dùng",
+  "userScreenTitle": "Thông tài khoản",
   "userScreenStudentID": "MSSV",
   "userScreenRole": "Chức vụ",
   "home_seeMore": "Xem thêm",
@@ -33,5 +33,14 @@
   "home_startButton": "Bắt đầu",
   "home_reviewMessage": "Không có từ nào cần ôn tập hôm nay",
   "home_hotWordsToday": "Từ nóng hôm nay",
-  "home_error": "Lỗi tải dữ liệu"
+  "home_error": "Lỗi tải dữ liệu",
+  "teamInfo": "Thông tin nhóm",
+  "logout": "Đăng xuất",
+  "teamLead": "Trưởng nhóm",
+  "member": "Thành viên",
+  "studentId": "MSSV",
+  "role": "Vai trò",
+  "phoneNumber": "SĐT",
+  "email": "Email",
+  "address": "Địa chỉ"
 }

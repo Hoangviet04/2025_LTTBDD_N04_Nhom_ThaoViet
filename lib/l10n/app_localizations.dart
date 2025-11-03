@@ -259,6 +259,60 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Error loading data'**
   String get home_error;
+
+  /// No description provided for @teamInfo.
+  ///
+  /// In en, this message translates to:
+  /// **'Team Info'**
+  String get teamInfo;
+
+  /// No description provided for @logout.
+  ///
+  /// In en, this message translates to:
+  /// **'Logout'**
+  String get logout;
+
+  /// No description provided for @teamLead.
+  ///
+  /// In en, this message translates to:
+  /// **'Team Lead'**
+  String get teamLead;
+
+  /// No description provided for @member.
+  ///
+  /// In en, this message translates to:
+  /// **'Member'**
+  String get member;
+
+  /// No description provided for @studentId.
+  ///
+  /// In en, this message translates to:
+  /// **'Student ID'**
+  String get studentId;
+
+  /// No description provided for @role.
+  ///
+  /// In en, this message translates to:
+  /// **'Role'**
+  String get role;
+
+  /// No description provided for @phoneNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Phone'**
+  String get phoneNumber;
+
+  /// No description provided for @email.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get email;
+
+  /// No description provided for @address.
+  ///
+  /// In en, this message translates to:
+  /// **'Address'**
+  String get address;
 }
 
 class _AppLocalizationsDelegate

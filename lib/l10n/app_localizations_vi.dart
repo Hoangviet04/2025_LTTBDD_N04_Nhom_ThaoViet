@@ -21,10 +21,10 @@ class AppLocalizationsVi extends AppLocalizations {
   String get bottomNavBarActivity => 'Hoạt động';
 
   @override
-  String get bottomNavBarUser => 'Thành viên';
+  String get bottomNavBarUser => 'Người dùng';
 
   @override
-  String get userScreenTitle => 'Thông tin thành viên';
+  String get userScreenTitle => 'Thông tài khoản';
 
   @override
   String get userScreenStudentID => 'MSSV';
@@ -90,4 +90,31 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get home_error => 'Lỗi tải dữ liệu';
+
+  @override
+  String get teamInfo => 'Thông tin nhóm';
+
+  @override
+  String get logout => 'Đăng xuất';
+
+  @override
+  String get teamLead => 'Trưởng nhóm';
+
+  @override
+  String get member => 'Thành viên';
+
+  @override
+  String get studentId => 'MSSV';
+
+  @override
+  String get role => 'Vai trò';
+
+  @override
+  String get phoneNumber => 'SĐT';
+
+  @override
+  String get email => 'Email';
+
+  @override
+  String get address => 'Địa chỉ';
 }
