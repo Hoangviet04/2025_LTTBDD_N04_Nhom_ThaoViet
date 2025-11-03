@@ -123,4 +123,9 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get video_topic_health => 'Sức khỏe';
+
+  @override
+  String video_by_level_title(Object level) {
+    return 'Video trình độ $level';
+  }
 }

@@ -123,4 +123,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get video_topic_health => 'Health';
+
+  @override
+  String video_by_level_title(Object level) {
+    return 'Videos for level $level';
+  }
 }

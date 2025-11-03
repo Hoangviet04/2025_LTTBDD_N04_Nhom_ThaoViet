@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vibeng/l10n/app_localizations.dart';
 import 'package:vibeng/theme.dart';
+import 'package:vibeng/widgets/videos/video_by_level.dart';
 import 'package:vibeng/widgets/videos/video_topic.dart';
 import 'package:vibeng/widgets/videos/video_trending_list.dart';
 
@@ -54,6 +55,8 @@ class LearnVideosScreen extends StatelessWidget {
                 const SizedBox(height: 16),
                 VideoTopics(),
                 const SizedBox(height: 16),
+                VideoByLevel(),
+                const SizedBox(height: 40),
               ],
             ),
           ),

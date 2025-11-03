@@ -44,5 +44,11 @@
   "video_topic_podcast": "Podcast",
   "video_topic_history": "Lịch sử",
   "video_topic_food_lifestyle": "Ẩm thực & Lối sống",
-  "video_topic_health": "Sức khỏe"
+  "video_topic_health": "Sức khỏe",
+  "video_by_level_title": "Video trình độ {level}",
+  "@video_by_level_title": {
+    "placeholders": {
+      "level": {}
+    }
+  }
 }

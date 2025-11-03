@@ -325,6 +325,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Health'**
   String get video_topic_health;
+
+  /// No description provided for @video_by_level_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Videos for level {level}'**
+  String video_by_level_title(Object level);
 }
 
 class _AppLocalizationsDelegate

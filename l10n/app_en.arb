@@ -44,5 +44,11 @@
   "video_topic_podcast": "Podcast",
   "video_topic_history": "History",
   "video_topic_food_lifestyle": "Food & Lifestyle",
-  "video_topic_health": "Health"
+  "video_topic_health": "Health",
+  "video_by_level_title": "Videos for level {level}",
+  "@video_by_level_title": {
+    "placeholders": {
+      "level": {}
+    }
+  }
 }

@@ -9,6 +9,7 @@ class VideoModel {
   final String topic;
   final String videoUrl;
   final String imageUrl;
+  final String level;
 
   VideoModel({
     required this.id,
@@ -19,6 +20,7 @@ class VideoModel {
     required this.topic,
     required this.videoUrl,
     required this.imageUrl,
+    required this.level,
   });
 
   factory VideoModel.fromJson(Map<String, dynamic> json) {
@@ -31,6 +33,7 @@ class VideoModel {
       topic: json['topic'] ?? '',
       videoUrl: json['videoUrl'] ?? '',
       imageUrl: json['imageUrl'] ?? '',
+      level: json['level'] ?? '',
     );
   }
 }
