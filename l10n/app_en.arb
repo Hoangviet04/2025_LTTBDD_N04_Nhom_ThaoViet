@@ -37,5 +37,12 @@
   "button_search_video": "Search video, topic",
   "video_hot_list_title": "Trending",
   "num_lessons": "number of lessons",
-  "video_topic_all": "Learning by topics"
+  "video_topic_all": "Learning by topics",
+  "video_topic_news": "News",
+  "video_topic_travel_culture": "Travel & Culture",
+  "video_topic_short_films": "Short Films",
+  "video_topic_podcast": "Podcast",
+  "video_topic_history": "History",
+  "video_topic_food_lifestyle": "Food & Lifestyle",
+  "video_topic_health": "Health"
 }

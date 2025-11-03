@@ -283,6 +283,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Learning by topics'**
   String get video_topic_all;
+
+  /// No description provided for @video_topic_news.
+  ///
+  /// In en, this message translates to:
+  /// **'News'**
+  String get video_topic_news;
+
+  /// No description provided for @video_topic_travel_culture.
+  ///
+  /// In en, this message translates to:
+  /// **'Travel & Culture'**
+  String get video_topic_travel_culture;
+
+  /// No description provided for @video_topic_short_films.
+  ///
+  /// In en, this message translates to:
+  /// **'Short Films'**
+  String get video_topic_short_films;
+
+  /// No description provided for @video_topic_podcast.
+  ///
+  /// In en, this message translates to:
+  /// **'Podcast'**
+  String get video_topic_podcast;
+
+  /// No description provided for @video_topic_history.
+  ///
+  /// In en, this message translates to:
+  /// **'History'**
+  String get video_topic_history;
+
+  /// No description provided for @video_topic_food_lifestyle.
+  ///
+  /// In en, this message translates to:
+  /// **'Food & Lifestyle'**
+  String get video_topic_food_lifestyle;
+
+  /// No description provided for @video_topic_health.
+  ///
+  /// In en, this message translates to:
+  /// **'Health'**
+  String get video_topic_health;
 }
 
 class _AppLocalizationsDelegate

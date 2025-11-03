@@ -47,12 +47,13 @@ class LearnVideosScreen extends StatelessWidget {
               topRight: Radius.circular(20),
             ),
           ),
-          child: Center(
+          child: SingleChildScrollView(
             child: Column(
               children: [
                 VideoTrendingList(),
-                const SizedBox(height: 20),
+                const SizedBox(height: 16),
                 VideoTopics(),
+                const SizedBox(height: 16),
               ],
             ),
           ),
