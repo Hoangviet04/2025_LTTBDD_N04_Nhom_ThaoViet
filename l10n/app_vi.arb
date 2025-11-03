@@ -33,5 +33,22 @@
   "home_startButton": "Bắt đầu",
   "home_reviewMessage": "Không có từ nào cần ôn tập hôm nay",
   "home_hotWordsToday": "Từ nóng hôm nay",
-  "home_error": "Lỗi tải dữ liệu"
+  "home_error": "Lỗi tải dữ liệu",
+  "button_search_video": "Tìm video, chủ đề",
+  "video_hot_list_title": "Đang thịnh hành",
+  "num_lessons": "lượt học",
+  "video_topic_all": "Học theo chủ đề",
+  "video_topic_news": "Tin tức",
+  "video_topic_travel_culture": "Du lịch & Văn hóa",
+  "video_topic_short_films": "Phim ngắn",
+  "video_topic_podcast": "Podcast",
+  "video_topic_history": "Lịch sử",
+  "video_topic_food_lifestyle": "Ẩm thực & Lối sống",
+  "video_topic_health": "Sức khỏe",
+  "video_by_level_title": "Video trình độ {level}",
+  "@video_by_level_title": {
+    "placeholders": {
+      "level": {}
+    }
+  }
 }

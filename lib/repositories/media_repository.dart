@@ -24,4 +24,10 @@ class MediaRepository {
     );
     return wordModelFromJson(jsonString);
   }
+
+  Future<List<String>> getVideoTopics() async {
+    final videos = await getVideos();
+    final topics = videos.map((video) => video.topic).toSet().toList();
+    return topics;
+  }
 }

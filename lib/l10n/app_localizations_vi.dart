@@ -90,4 +90,42 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get home_error => 'Lỗi tải dữ liệu';
+
+  @override
+  String get button_search_video => 'Tìm video, chủ đề';
+
+  @override
+  String get video_hot_list_title => 'Đang thịnh hành';
+
+  @override
+  String get num_lessons => 'lượt học';
+
+  @override
+  String get video_topic_all => 'Học theo chủ đề';
+
+  @override
+  String get video_topic_news => 'Tin tức';
+
+  @override
+  String get video_topic_travel_culture => 'Du lịch & Văn hóa';
+
+  @override
+  String get video_topic_short_films => 'Phim ngắn';
+
+  @override
+  String get video_topic_podcast => 'Podcast';
+
+  @override
+  String get video_topic_history => 'Lịch sử';
+
+  @override
+  String get video_topic_food_lifestyle => 'Ẩm thực & Lối sống';
+
+  @override
+  String get video_topic_health => 'Sức khỏe';
+
+  @override
+  String video_by_level_title(Object level) {
+    return 'Video trình độ $level';
+  }
 }

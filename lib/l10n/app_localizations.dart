@@ -259,6 +259,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Error loading data'**
   String get home_error;
+
+  /// No description provided for @button_search_video.
+  ///
+  /// In en, this message translates to:
+  /// **'Search video, topic'**
+  String get button_search_video;
+
+  /// No description provided for @video_hot_list_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Trending'**
+  String get video_hot_list_title;
+
+  /// No description provided for @num_lessons.
+  ///
+  /// In en, this message translates to:
+  /// **'number of lessons'**
+  String get num_lessons;
+
+  /// No description provided for @video_topic_all.
+  ///
+  /// In en, this message translates to:
+  /// **'Learning by topics'**
+  String get video_topic_all;
+
+  /// No description provided for @video_topic_news.
+  ///
+  /// In en, this message translates to:
+  /// **'News'**
+  String get video_topic_news;
+
+  /// No description provided for @video_topic_travel_culture.
+  ///
+  /// In en, this message translates to:
+  /// **'Travel & Culture'**
+  String get video_topic_travel_culture;
+
+  /// No description provided for @video_topic_short_films.
+  ///
+  /// In en, this message translates to:
+  /// **'Short Films'**
+  String get video_topic_short_films;
+
+  /// No description provided for @video_topic_podcast.
+  ///
+  /// In en, this message translates to:
+  /// **'Podcast'**
+  String get video_topic_podcast;
+
+  /// No description provided for @video_topic_history.
+  ///
+  /// In en, this message translates to:
+  /// **'History'**
+  String get video_topic_history;
+
+  /// No description provided for @video_topic_food_lifestyle.
+  ///
+  /// In en, this message translates to:
+  /// **'Food & Lifestyle'**
+  String get video_topic_food_lifestyle;
+
+  /// No description provided for @video_topic_health.
+  ///
+  /// In en, this message translates to:
+  /// **'Health'**
+  String get video_topic_health;
+
+  /// No description provided for @video_by_level_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Videos for level {level}'**
+  String video_by_level_title(Object level);
 }
 
 class _AppLocalizationsDelegate

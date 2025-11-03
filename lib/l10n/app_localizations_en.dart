@@ -90,4 +90,42 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get home_error => 'Error loading data';
+
+  @override
+  String get button_search_video => 'Search video, topic';
+
+  @override
+  String get video_hot_list_title => 'Trending';
+
+  @override
+  String get num_lessons => 'number of lessons';
+
+  @override
+  String get video_topic_all => 'Learning by topics';
+
+  @override
+  String get video_topic_news => 'News';
+
+  @override
+  String get video_topic_travel_culture => 'Travel & Culture';
+
+  @override
+  String get video_topic_short_films => 'Short Films';
+
+  @override
+  String get video_topic_podcast => 'Podcast';
+
+  @override
+  String get video_topic_history => 'History';
+
+  @override
+  String get video_topic_food_lifestyle => 'Food & Lifestyle';
+
+  @override
+  String get video_topic_health => 'Health';
+
+  @override
+  String video_by_level_title(Object level) {
+    return 'Videos for level $level';
+  }
 }
