@@ -409,6 +409,7 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Search vocabulary sets'**
   String get vocab_sets_search_hint;
+<<<<<<< HEAD
 
   /// No description provided for @trending.
   ///
@@ -523,6 +524,8 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Classical ⚡'**
   String get classical;
+=======
+>>>>>>> feature/vocabulary-sets-screen
 }
 
 class _AppLocalizationsDelegate
