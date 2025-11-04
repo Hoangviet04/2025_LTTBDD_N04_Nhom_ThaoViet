@@ -8,24 +8,31 @@ List<WordDetailModel> wordDetailModelFromJson(String str) =>
 class WordDetailModel {
   final String id;
   final String word;
-  final String pronunciation;
+  final String? pronunciation;
+  final String? partOfSpeech;
   final String meaning;
-  final String audioUrl;
+  final String? example;
+  final String? audioUrl;
 
   WordDetailModel({
     required this.id,
     required this.word,
-    required this.pronunciation,
+    this.pronunciation,
+    this.partOfSpeech,
     required this.meaning,
-    required this.audioUrl,
+    this.example,
+    this.audioUrl,
   });
 
-  factory WordDetailModel.fromJson(Map<String, dynamic> json) =>
-      WordDetailModel(
-        id: json["id"],
-        word: json["word"],
-        pronunciation: json["pronunciation"],
-        meaning: json["meaning"],
-        audioUrl: json["audioUrl"],
-      );
+  factory WordDetailModel.fromJson(Map<String, dynamic> json) {
+    return WordDetailModel(
+      id: json['id'] as String,
+      word: json['word'] as String,
+      pronunciation: json['pronunciation'] as String?,
+      partOfSpeech: json['partOfSpeech'] as String?,
+      meaning: json['meaning'] as String,
+      example: json['example'] as String?,
+      audioUrl: json['audioUrl'] as String?,
+    );
+  }
 }

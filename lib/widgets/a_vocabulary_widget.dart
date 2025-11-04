@@ -31,8 +31,13 @@ class VocabularyWidget extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) =>
-                  VocabSetDetailScreen(title: title, setId: setId),
+              builder: (context) => VocabSetDetailScreen(
+                title: title,
+                setId: setId,
+                wordsLearned: wordsLearned,
+                totalWords: totalWords,
+                progress: progress,
+              ),
             ),
           );
         },
