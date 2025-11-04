@@ -167,6 +167,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get vocab_sets_search_hint => 'Search vocabulary sets';
+<<<<<<< HEAD
 
   @override
   String get trending => 'Trending 🔥';
@@ -228,4 +229,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get classical => 'Classical ⚡';
+=======
+>>>>>>> feature/vocabulary-sets-screen
 }
