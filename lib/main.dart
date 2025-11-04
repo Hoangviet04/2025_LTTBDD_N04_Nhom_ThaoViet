@@ -6,7 +6,7 @@ import 'firebase_options.dart';
 import 'theme.dart';
 import 'widgets/bottom_navbar.dart';
 import 'screens/home_screen.dart';
-import 'screens/dictionary_screen.dart';
+import 'screens/vocab_store_screen.dart';
 import 'screens/activity_screen.dart';
 import 'screens/user_screen.dart';
 
@@ -40,7 +40,7 @@ class _MyAppState extends State<MyApp> {
 
   final List<Widget> _screens = [
     const HomeScreen(),
-    const DictionaryScreen(),
+    const VocabStoreScreen(),
     const ActivityScreen(),
     const UserScreen(),
   ];

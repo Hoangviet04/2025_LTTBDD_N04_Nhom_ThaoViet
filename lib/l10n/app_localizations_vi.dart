@@ -160,6 +160,15 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
+  String get vocab_store_title => 'Kho từ';
+
+  @override
+  String get vocab_sets_title => 'Bộ từ vựng';
+
+  @override
+  String get vocab_sets_search_hint => 'Tìm bộ từ vựng';
+
+  @override
   String get trending => 'Xu hướng 🔥';
 
   @override

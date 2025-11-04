@@ -10,6 +10,7 @@ const Color buttonColor = Color.fromARGB(
 );
 
 final ThemeData appTheme = ThemeData(
+  scaffoldBackgroundColor: const Color.fromARGB(255, 244, 252, 247),
   primaryColor: primaryColor,
   colorScheme: ColorScheme.fromSwatch().copyWith(
     secondary: secondaryColor,

@@ -160,6 +160,15 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
+  String get vocab_store_title => 'Word Store';
+
+  @override
+  String get vocab_sets_title => 'Vocabulary Sets';
+
+  @override
+  String get vocab_sets_search_hint => 'Search vocabulary sets';
+
+  @override
   String get trending => 'Trending 🔥';
 
   @override
