@@ -50,5 +50,8 @@
     "placeholders": {
       "level": {}
     }
-  }
+  },
+  "vocab_store_title": "Word Store",
+  "vocab_sets_title": "Vocabulary Sets",
+  "vocab_sets_search_hint": "Search vocabulary sets"
 }

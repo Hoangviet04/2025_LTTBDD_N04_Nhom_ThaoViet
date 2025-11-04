@@ -128,4 +128,13 @@ class AppLocalizationsVi extends AppLocalizations {
   String video_by_level_title(Object level) {
     return 'Video trình độ $level';
   }
+
+  @override
+  String get vocab_store_title => 'Kho từ';
+
+  @override
+  String get vocab_sets_title => 'Bộ từ vựng';
+
+  @override
+  String get vocab_sets_search_hint => 'Tìm bộ từ vựng';
 }

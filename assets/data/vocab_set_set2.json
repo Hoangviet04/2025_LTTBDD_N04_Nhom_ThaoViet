@@ -1,0 +1,23 @@
+[
+    {
+        "id": "word1",
+        "word": "Family",
+        "pronunciation": "/ˈfæm.əl.i/",
+        "meaning": "Gia đình",
+        "audioUrl": "..."
+    },
+    {
+        "id": "word2",
+        "word": "House",
+        "pronunciation": "/haʊs/",
+        "meaning": "Ngôi nhà",
+        "audioUrl": "..."
+    },
+    {
+        "id": "word3",
+        "word": "Morning",
+        "pronunciation": "/ˈmɔːr.nɪŋ/",
+        "meaning": "Buổi sáng",
+        "audioUrl": "..."
+    }
+]

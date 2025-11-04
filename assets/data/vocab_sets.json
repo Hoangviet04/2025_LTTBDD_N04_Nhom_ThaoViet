@@ -1,0 +1,65 @@
+[
+    {
+        "id": "set1",
+        "title": "Cuộc sống hàng ngày",
+        "imagePath": "assets/imgs/cat1.jpg",
+        "currentProgress": 30,
+        "totalItems": 102
+    },
+    {
+        "id": "set2",
+        "title": "Gia đình",
+        "imagePath": "assets/imgs/cat2.jpg",
+        "currentProgress": 0,
+        "totalItems": 101
+    },
+    {
+        "id": "set3",
+        "title": "Động vật",
+        "imagePath": "assets/imgs/takopi_bia.png",
+        "currentProgress": 0,
+        "totalItems": 80
+    },
+    {
+        "id": "set4",
+        "title": "Cuộc sống hàng ngày",
+        "imagePath": "assets/imgs/cat1.jpg",
+        "currentProgress": 30,
+        "totalItems": 102
+    },
+    {
+        "id": "set5",
+        "title": "Gia đình",
+        "imagePath": "assets/imgs/cat2.jpg",
+        "currentProgress": 0,
+        "totalItems": 101
+    },
+    {
+        "id": "set6",
+        "title": "Động vật",
+        "imagePath": "assets/imgs/takopi_bia.png",
+        "currentProgress": 0,
+        "totalItems": 80
+    },
+    {
+        "id": "set7",
+        "title": "Cuộc sống hàng ngày",
+        "imagePath": "assets/imgs/cat1.jpg",
+        "currentProgress": 30,
+        "totalItems": 102
+    },
+    {
+        "id": "set8",
+        "title": "Gia đình",
+        "imagePath": "assets/imgs/cat2.jpg",
+        "currentProgress": 0,
+        "totalItems": 101
+    },
+    {
+        "id": "set9",
+        "title": "Động vật",
+        "imagePath": "assets/imgs/takopi_bia.png",
+        "currentProgress": 0,
+        "totalItems": 80
+    }
+]

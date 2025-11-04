@@ -4,6 +4,7 @@ const Color primaryColor = Color(0xFF39c3b9);
 const Color secondaryColor = Colors.grey;
 
 final ThemeData appTheme = ThemeData(
+  scaffoldBackgroundColor: const Color.fromARGB(255, 244, 252, 247),
   primaryColor: primaryColor,
   colorScheme: ColorScheme.fromSwatch().copyWith(secondary: secondaryColor),
   textTheme: const TextTheme(

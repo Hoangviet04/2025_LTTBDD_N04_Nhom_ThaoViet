@@ -331,6 +331,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Videos for level {level}'**
   String video_by_level_title(Object level);
+
+  /// No description provided for @vocab_store_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Word Store'**
+  String get vocab_store_title;
+
+  /// No description provided for @vocab_sets_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Vocabulary Sets'**
+  String get vocab_sets_title;
+
+  /// No description provided for @vocab_sets_search_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Search vocabulary sets'**
+  String get vocab_sets_search_hint;
 }
 
 class _AppLocalizationsDelegate

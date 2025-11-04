@@ -128,4 +128,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String video_by_level_title(Object level) {
     return 'Videos for level $level';
   }
+
+  @override
+  String get vocab_store_title => 'Word Store';
+
+  @override
+  String get vocab_sets_title => 'Vocabulary Sets';
+
+  @override
+  String get vocab_sets_search_hint => 'Search vocabulary sets';
 }
