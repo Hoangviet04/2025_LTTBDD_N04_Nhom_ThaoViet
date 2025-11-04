@@ -44,6 +44,7 @@
   "email": "Email",
   "address": "Địa chỉ",
   "button_search_video": "Tìm video, chủ đề",
+  "button_search_song": "Tìm kiếm bài hát hoặc nghệ sĩ",
   "video_hot_list_title": "Đang thịnh hành",
   "num_lessons": "lượt học",
   "video_topic_all": "Học theo chủ đề",
@@ -59,5 +60,38 @@
     "placeholders": {
       "level": {}
     }
-  }
+  },
+  "trending": "Xu hướng 🔥",
+  "hotThisWeek": "Hot trong tuần",
+  "forYou": "Dành cho bạn",
+  "artist": "Nghệ sĩ",
+  "hotSongNumber": "Bài hát hot #{number}",
+  "@hotSongNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "forYouSongNumber": "Bài hát cho bạn #{number}",
+  "@forYouSongNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "views": "lượt xem",
+  "lessons": "lượt học",
+  "discoverGenres": "Khám phá thể loại 🌈",
+  "pop": "Nhạc Pop 🎧",
+  "rock": "Nhạc Rock 📈",
+  "hipHopRap": "Nhạc Hip-hop/Rap 🎤",
+  "rnb": "Nhạc R&B 🌿",
+  "jazz": "Nhạc Jazz 🎵",
+  "blues": "Nhạc Blues 💙",
+  "edm": "EDM 🏆",
+  "country": "Nhạc Đồng Quê 🎶",
+  "reggae": "Nhạc Reggae 🔷",
+  "classical": "Nhạc Cổ Điển ⚡"
 }
