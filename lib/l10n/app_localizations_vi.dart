@@ -167,8 +167,6 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get vocab_sets_search_hint => 'Tìm bộ từ vựng';
-<<<<<<< HEAD
-<<<<<<< HEAD
 
   @override
   String get trending => 'Xu hướng 🔥';
@@ -230,8 +228,4 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get classical => 'Nhạc Cổ Điển ⚡';
-=======
->>>>>>> feature/vocabulary-sets-screen
-=======
->>>>>>> feature/vocabulary-sets-screen
 }

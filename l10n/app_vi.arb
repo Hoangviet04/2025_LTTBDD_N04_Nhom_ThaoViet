@@ -63,7 +63,9 @@
   },
   "vocab_store_title": "Kho từ",
   "vocab_sets_title": "Bộ từ vựng",
-<<<<<<< HEAD
+  "vocab_sets_search_hint": "Tìm bộ từ vựng",
+  "vocab_store_title": "Kho từ",
+  "vocab_sets_title": "Bộ từ vựng",
   "vocab_sets_search_hint": "Tìm bộ từ vựng",
   "trending": "Xu hướng 🔥",
   "hotThisWeek": "Hot trong tuần",
@@ -98,7 +100,5 @@
   "country": "Nhạc Đồng Quê 🎶",
   "reggae": "Nhạc Reggae 🔷",
   "classical": "Nhạc Cổ Điển ⚡",
-=======
->>>>>>> feature/vocabulary-sets-screen
   "vocab_sets_search_hint": "Tìm bộ từ vựng"
 }

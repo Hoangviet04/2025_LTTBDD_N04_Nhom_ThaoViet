@@ -63,8 +63,9 @@
   },
   "vocab_store_title": "Word Store",
   "vocab_sets_title": "Vocabulary Sets",
-<<<<<<< HEAD
-<<<<<<< HEAD
+  "vocab_sets_search_hint": "Search vocabulary sets",
+  "vocab_store_title": "Word Store",
+  "vocab_sets_title": "Vocabulary Sets",
   "vocab_sets_search_hint": "Search vocabulary sets",
   "trending": "Trending 🔥",
   "hotThisWeek": "Hot this week",
@@ -98,11 +99,7 @@
   "edm": "EDM 🏆",
   "country": "Country 🎶",
   "reggae": "Reggae 🔷",
-  "classical": "Classical ⚡"
-=======
+  "classical": "Classical ⚡",
+  "vocab_sets_search_hint": "Search vocabulary sets",
   "vocab_sets_search_hint": "Search vocabulary sets"
->>>>>>> feature/vocabulary-sets-screen
-=======
-  "vocab_sets_search_hint": "Search vocabulary sets"
->>>>>>> feature/vocabulary-sets-screen
 }
