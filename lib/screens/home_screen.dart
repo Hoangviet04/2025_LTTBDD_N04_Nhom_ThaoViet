@@ -3,7 +3,6 @@ import 'package:vibeng/main.dart';
 import 'package:vibeng/widgets/home/home_song_section.dart';
 import 'package:vibeng/widgets/home/home_video_section.dart';
 import 'package:vibeng/widgets/home/learning_choice_section.dart';
-
 import 'package:vibeng/widgets/home/streak_card.dart';
 import 'package:vibeng/widgets/home/welcome_card.dart';
 import 'package:vibeng/widgets/hot_word_list.dart';

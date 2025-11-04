@@ -14,7 +14,7 @@ class HomeVideoSection extends StatefulWidget {
 
 class _HomeVideoSectionState extends State<HomeVideoSection> {
   final MediaRepository repository = MediaRepository();
-  List<VideoModel>? videosList;
+  List<VideoModel> videosList = [];
   bool isLoading = true;
 
   @override
@@ -35,7 +35,7 @@ class _HomeVideoSectionState extends State<HomeVideoSection> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
-    final videos = videosList!;
+    final videos = videosList;
 
     if (isLoading) {
       return const Center(child: CircularProgressIndicator());

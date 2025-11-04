@@ -4,12 +4,14 @@ import 'package:vibeng/theme.dart';
 
 class SectionHeader extends StatelessWidget {
   final String title;
+  final Widget? icon;
   final bool showSeeMore;
   final VoidCallback? onSeeMore;
 
   const SectionHeader({
     super.key,
     this.title = '',
+    this.icon,
     this.showSeeMore = false,
     this.onSeeMore,
   });
@@ -23,7 +25,12 @@ class SectionHeader extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(title, style: textTheme),
+          Row(
+            children: [
+              Text(title, style: textTheme),
+              if (icon != null) ...[const SizedBox(width: 8), icon!],
+            ],
+          ),
           if (showSeeMore)
             TextButton(
               onPressed: onSeeMore,

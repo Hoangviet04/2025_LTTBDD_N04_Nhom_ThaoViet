@@ -1,30 +1,39 @@
 import 'dart:convert';
 
 class VideoModel {
-  String id, title, views, videoTime, topic, videoUrl, imageUrl;
-  int numberOfLessons;
+  final String id;
+  final String title;
+  final String views;
+  final int numberOfLessons;
+  final String videoTime;
+  final String topic;
+  final String videoUrl;
+  final String imageUrl;
+  final String level;
 
   VideoModel({
     required this.id,
     required this.title,
     required this.views,
+    required this.numberOfLessons,
     required this.videoTime,
     required this.topic,
     required this.videoUrl,
     required this.imageUrl,
-    required this.numberOfLessons,
+    required this.level,
   });
 
   factory VideoModel.fromJson(Map<String, dynamic> json) {
     return VideoModel(
-      id: json["id"],
-      title: json["title"],
-      views: json["views"],
-      numberOfLessons: json["numberOfLessons"],
-      videoTime: json["videoTime"],
-      topic: json["topic"],
-      videoUrl: json["videoUrl"],
-      imageUrl: json["imageUrl"],
+      id: json['id'] ?? '',
+      title: json['title'] ?? '',
+      views: json['views'] ?? '',
+      numberOfLessons: json['numberOfLessons'] ?? 0,
+      videoTime: json['videoTime'] ?? '',
+      topic: json['topic'] ?? '',
+      videoUrl: json['videoUrl'] ?? '',
+      imageUrl: json['imageUrl'] ?? '',
+      level: json['level'] ?? '',
     );
   }
 }

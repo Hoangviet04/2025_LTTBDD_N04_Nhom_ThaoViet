@@ -5,7 +5,8 @@
         "views": "1.4K",
         "numberOfLessons": 0,
         "videoTime": "10:32",
-        "topic": "English Podcast",
+        "topic": "Podcast",
+        "level": "B1",
         "videoUrl": "https://example.com/video/v1",
         "imageUrl": "assets/imgs/wakeup.jpg"
     },
@@ -15,7 +16,19 @@
         "views": "133.1K",
         "numberOfLessons": 3,
         "videoTime": "05:15",
-        "topic": "Conversation",
+        "topic": "Food & Lifestyle",
+        "level": "A1",
+        "videoUrl": "https://example.com/video/v2",
+        "imageUrl": "assets/imgs/ask.jpg"
+    },
+    {
+        "id": "v2",
+        "title": "Simple Daily Conversation",
+        "views": "133.1K",
+        "numberOfLessons": 3,
+        "videoTime": "05:15",
+        "topic": "Food & Lifestyle",
+        "level": "A1",
         "videoUrl": "https://example.com/video/v2",
         "imageUrl": "assets/imgs/ask.jpg"
     }
