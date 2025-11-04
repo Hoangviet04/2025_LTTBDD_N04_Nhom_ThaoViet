@@ -63,39 +63,38 @@
   },
   "vocab_store_title": "Word Store",
   "vocab_sets_title": "Vocabulary Sets",
-  "vocab_sets_search_hint": "Search vocabulary sets"
-},
-"trending": "Trending 🔥",
-"hotThisWeek": "Hot this week",
-"forYou": "For you",
-"artist": "Artist",
-"hotSongNumber": "Hot Song #{number}",
-"@hotSongNumber": {
-  "placeholders": {
-    "number": {
-      "type": "int"
+  "vocab_sets_search_hint": "Search vocabulary sets",
+  "trending": "Trending 🔥",
+  "hotThisWeek": "Hot this week",
+  "forYou": "For you",
+  "artist": "Artist",
+  "hotSongNumber": "Hot Song #{number}",
+  "@hotSongNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
     }
-  }
-},
-"forYouSongNumber": "Song for you #{number}",
-"@forYouSongNumber": {
-  "placeholders": {
-    "number": {
-      "type": "int"
+  },
+  "forYouSongNumber": "Song for you #{number}",
+  "@forYouSongNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
     }
-  }
-},
-"views": "views",
-"lessons": "lessons",
-"discoverGenres": "Discover Genres 🌈",
-"pop": "Pop 🎧",
-"rock": "Rock 📈",
-"hipHopRap": "Hip-hop/Rap 🎤",
-"rnb": "R&B 🌿",
-"jazz": "Jazz 🎵",
-"blues": "Blues 💙",
-"edm": "EDM 🏆",
-"country": "Country 🎶",
-"reggae": "Reggae 🔷",
-"classical": "Classical ⚡"
+  },
+  "views": "views",
+  "lessons": "lessons",
+  "discoverGenres": "Discover Genres 🌈",
+  "pop": "Pop 🎧",
+  "rock": "Rock 📈",
+  "hipHopRap": "Hip-hop/Rap 🎤",
+  "rnb": "R&B 🌿",
+  "jazz": "Jazz 🎵",
+  "blues": "Blues 💙",
+  "edm": "EDM 🏆",
+  "country": "Country 🎶",
+  "reggae": "Reggae 🔷",
+  "classical": "Classical ⚡"
 }
