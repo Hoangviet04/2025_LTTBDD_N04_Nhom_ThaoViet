@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -511,7 +510,10 @@ class _LearnSongsScreenState
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => PlaySongsScreen(song: song),
+                            builder: (context) =>
+                                PlaySongsScreen(
+                                  song: song,
+                                ),
                           ),
                         );
                       },
