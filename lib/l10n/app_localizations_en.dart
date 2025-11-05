@@ -228,4 +228,25 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get classical => 'Classical ⚡';
+
+  @override
+  String get vocab_store_progress_broad => 'My progress';
+
+  @override
+  String get total_learned => 'Total learned words:';
+
+  @override
+  String get words_learned => 'Words';
+
+  @override
+  String get streak_of_me => 'Streak:';
+
+  @override
+  String get days => 'Days';
+
+  @override
+  String get words_learned_week => 'Words learned this week:';
+
+  @override
+  String get vocab_store_my_notebook => 'My Notebook';
 }
