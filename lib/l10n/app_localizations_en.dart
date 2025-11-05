@@ -197,7 +197,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get lessons => 'lessons';
 
   @override
-  String get discoverGenres => 'Discover Genres 🌈';
+  String get discoverGenres => 'Discover Genres';
+
+  @override
+  String get featuredArtists => 'Featured Artists 🏆';
 
   @override
   String get pop => 'Pop 🎧';
@@ -228,4 +231,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get classical => 'Classical ⚡';
+
+  @override
+  String get latestSongs => 'Latest Songs';
 }

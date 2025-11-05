@@ -1,0 +1,27 @@
+[
+    {
+        "id": "a1",
+        "name": "CoComelon",
+        "imageUrl": "assets/imgs/songs/artist/cocomelon.jpg"
+    },
+    {
+        "id": "a2",
+        "name": "Wiz Khalifa",
+        "imageUrl": "assets/imgs/songs/artist/WizKhalifa.jpg"
+    },
+    {
+        "id": "a3",
+        "name": "Ed Sheeran",
+        "imageUrl": "assets/imgs/songs/artist/EdSheeran.jpg"
+    },
+    {
+        "id": "a4",
+        "name": "The Weeknd",
+        "imageUrl": "assets/imgs/songs/artist/The Weeknd.jpg"
+    },
+    {
+        "id": "a5",
+        "name": "Billie Eilish",
+        "imageUrl": "assets/imgs/songs/artist/Billie Eilish.jpg"
+    }
+]

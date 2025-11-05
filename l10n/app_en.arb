@@ -92,7 +92,8 @@
   },
   "views": "views",
   "lessons": "lessons",
-  "discoverGenres": "Discover Genres 🌈",
+  "discoverGenres": "Discover Genres",
+  "featuredArtists": "Featured Artists 🏆",
   "pop": "Pop 🎧",
   "rock": "Rock 📈",
   "hipHopRap": "Hip-hop/Rap 🎤",
@@ -103,6 +104,7 @@
   "country": "Country 🎶",
   "reggae": "Reggae 🔷",
   "classical": "Classical ⚡",
+  "latestSongs": "Latest Songs",
   "vocab_sets_search_hint": "Search vocabulary sets",
   "vocab_sets_search_hint": "Search vocabulary sets"
 }

@@ -461,8 +461,14 @@ abstract class AppLocalizations {
   /// No description provided for @discoverGenres.
   ///
   /// In en, this message translates to:
-  /// **'Discover Genres 🌈'**
+  /// **'Discover Genres'**
   String get discoverGenres;
+
+  /// No description provided for @featuredArtists.
+  ///
+  /// In en, this message translates to:
+  /// **'Featured Artists 🏆'**
+  String get featuredArtists;
 
   /// No description provided for @pop.
   ///
@@ -523,6 +529,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Classical ⚡'**
   String get classical;
+
+  /// No description provided for @latestSongs.
+  ///
+  /// In en, this message translates to:
+  /// **'Latest Songs'**
+  String get latestSongs;
 }
 
 class _AppLocalizationsDelegate
