@@ -200,6 +200,9 @@ class AppLocalizationsVi extends AppLocalizations {
   String get discoverGenres => 'Khám phá thể loại 🌈';
 
   @override
+  String get featuredArtists => 'Nghệ sĩ nổi bật 🏆';
+
+  @override
   String get pop => 'Nhạc Pop 🎧';
 
   @override
@@ -228,4 +231,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get classical => 'Nhạc Cổ Điển ⚡';
+
+  @override
+  String get latestSongs => 'Bài hát mới nhất';
 }

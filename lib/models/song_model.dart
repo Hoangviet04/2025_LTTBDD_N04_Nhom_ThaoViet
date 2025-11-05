@@ -2,6 +2,7 @@ import 'dart:convert';
 
 class SongModel {
   String id, title, artist, views, genre, audioUrl, imageUrl;
+  String? artistImg;
   int numberOfLessons;
 
   SongModel({
@@ -13,6 +14,7 @@ class SongModel {
     required this.genre,
     required this.audioUrl,
     required this.imageUrl,
+    this.artistImg,
   });
 
   factory SongModel.fromJson(Map<String, dynamic> json) {
@@ -25,6 +27,7 @@ class SongModel {
       genre: json["genre"],
       audioUrl: json["audioUrl"],
       imageUrl: json["imageUrl"],
+      artistImg: json["artistImg"],
     );
   }
 }

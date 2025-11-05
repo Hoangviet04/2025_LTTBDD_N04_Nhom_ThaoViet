@@ -18,5 +18,35 @@
         "genre": "Pop",
         "audioUrl": "https://example.com/audio/s2",
         "imageUrl": "assets/imgs/songs/wiz_khalifa_see_you_again.jpg"
+    },
+    {
+        "id": "s3",
+        "title": "Shape of You",
+        "artist": "Ed Sheeran",
+        "views": "9.1B",
+        "numberOfLessons": 2,
+        "genre": "Pop",
+        "audioUrl": "https://example.com/audio/s3",
+        "imageUrl": "assets/imgs/songs/shape_of_you.jpg"
+    },
+    {
+        "id": "s4",
+        "title": "Blinding Lights",
+        "artist": "The Weeknd",
+        "views": "8.4B",
+        "numberOfLessons": 1,
+        "genre": "Synthpop",
+        "audioUrl": "https://example.com/audio/s4",
+        "imageUrl": "assets/imgs/songs/blinding_lights.jpg"
+    },
+    {
+        "id": "s5",
+        "title": "Bad Guy",
+        "artist": "Billie Eilish",
+        "views": "6.2B",
+        "numberOfLessons": 1,
+        "genre": "Pop",
+        "audioUrl": "https://example.com/audio/s5",
+        "imageUrl": "assets/imgs/songs/bad_guy.jpg"
     }
 ]
