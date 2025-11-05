@@ -122,6 +122,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get button_search_video => 'Search video, topic';
 
   @override
+  String get button_search_song => 'Search song or artist...';
+
+  @override
   String get video_hot_list_title => 'Trending';
 
   @override
@@ -155,4 +158,74 @@ class AppLocalizationsEn extends AppLocalizations {
   String video_by_level_title(Object level) {
     return 'Videos for level $level';
   }
+
+  @override
+  String get vocab_store_title => 'Word Store';
+
+  @override
+  String get vocab_sets_title => 'Vocabulary Sets';
+
+  @override
+  String get vocab_sets_search_hint => 'Search vocabulary sets';
+
+  @override
+  String get trending => 'Trending 🔥';
+
+  @override
+  String get hotThisWeek => 'Hot this week';
+
+  @override
+  String get forYou => 'For you';
+
+  @override
+  String get artist => 'Artist';
+
+  @override
+  String hotSongNumber(int number) {
+    return 'Hot Song #$number';
+  }
+
+  @override
+  String forYouSongNumber(int number) {
+    return 'Song for you #$number';
+  }
+
+  @override
+  String get views => 'views';
+
+  @override
+  String get lessons => 'lessons';
+
+  @override
+  String get discoverGenres => 'Discover Genres 🌈';
+
+  @override
+  String get pop => 'Pop 🎧';
+
+  @override
+  String get rock => 'Rock 📈';
+
+  @override
+  String get hipHopRap => 'Hip-hop/Rap 🎤';
+
+  @override
+  String get rnb => 'R&B 🌿';
+
+  @override
+  String get jazz => 'Jazz 🎵';
+
+  @override
+  String get blues => 'Blues 💙';
+
+  @override
+  String get edm => 'EDM 🏆';
+
+  @override
+  String get country => 'Country 🎶';
+
+  @override
+  String get reggae => 'Reggae 🔷';
+
+  @override
+  String get classical => 'Classical ⚡';
 }

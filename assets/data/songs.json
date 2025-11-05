@@ -7,7 +7,7 @@
         "numberOfLessons": 0,
         "genre": "Kids",
         "audioUrl": "https://example.com/audio/s1",
-        "imageUrl": "https://placehold.co/600x400/FFF8C4/333?text=Song+1+Img"
+        "imageUrl": "assets/imgs/songs/wheelonthebus.jpg"
     },
     {
         "id": "s2",
@@ -17,6 +17,6 @@
         "numberOfLessons": 1,
         "genre": "Pop",
         "audioUrl": "https://example.com/audio/s2",
-        "imageUrl": "https://placehold.co/600x400/D4D4D4/333?text=Song+2+Img"
+        "imageUrl": "assets/imgs/songs/wiz_khalifa_see_you_again.jpg"
     }
 ]

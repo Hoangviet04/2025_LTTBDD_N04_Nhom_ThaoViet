@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:vibeng/l10n/app_localizations.dart';
 import 'package:vibeng/screens/learn_songs_screen.dart';
 import 'package:vibeng/screens/learn_videos_screen.dart';
+import 'package:vibeng/screens/vocab_sets_screen.dart';
 import 'package:vibeng/widgets/section_header.dart';
 
 class LearningChoiceSection extends StatelessWidget {
@@ -53,6 +54,12 @@ class LearningChoiceSection extends StatelessWidget {
         const Color(0xFFE0D6FF),
         const Color(0xFFEDE7F6),
         Colors.deepPurple[700]!,
+        onTap: () => {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const VocabSetScreen()),
+          ),
+        },
       ),
     ];
 

@@ -320,6 +320,12 @@ abstract class AppLocalizations {
   /// **'Search video, topic'**
   String get button_search_video;
 
+  /// No description provided for @button_search_song.
+  ///
+  /// In en, this message translates to:
+  /// **'Search song or artist...'**
+  String get button_search_song;
+
   /// No description provided for @video_hot_list_title.
   ///
   /// In en, this message translates to:
@@ -385,6 +391,138 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Videos for level {level}'**
   String video_by_level_title(Object level);
+
+  /// No description provided for @vocab_store_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Word Store'**
+  String get vocab_store_title;
+
+  /// No description provided for @vocab_sets_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Vocabulary Sets'**
+  String get vocab_sets_title;
+
+  /// No description provided for @vocab_sets_search_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Search vocabulary sets'**
+  String get vocab_sets_search_hint;
+
+  /// No description provided for @trending.
+  ///
+  /// In en, this message translates to:
+  /// **'Trending 🔥'**
+  String get trending;
+
+  /// No description provided for @hotThisWeek.
+  ///
+  /// In en, this message translates to:
+  /// **'Hot this week'**
+  String get hotThisWeek;
+
+  /// No description provided for @forYou.
+  ///
+  /// In en, this message translates to:
+  /// **'For you'**
+  String get forYou;
+
+  /// No description provided for @artist.
+  ///
+  /// In en, this message translates to:
+  /// **'Artist'**
+  String get artist;
+
+  /// No description provided for @hotSongNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Hot Song #{number}'**
+  String hotSongNumber(int number);
+
+  /// No description provided for @forYouSongNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Song for you #{number}'**
+  String forYouSongNumber(int number);
+
+  /// No description provided for @views.
+  ///
+  /// In en, this message translates to:
+  /// **'views'**
+  String get views;
+
+  /// No description provided for @lessons.
+  ///
+  /// In en, this message translates to:
+  /// **'lessons'**
+  String get lessons;
+
+  /// No description provided for @discoverGenres.
+  ///
+  /// In en, this message translates to:
+  /// **'Discover Genres 🌈'**
+  String get discoverGenres;
+
+  /// No description provided for @pop.
+  ///
+  /// In en, this message translates to:
+  /// **'Pop 🎧'**
+  String get pop;
+
+  /// No description provided for @rock.
+  ///
+  /// In en, this message translates to:
+  /// **'Rock 📈'**
+  String get rock;
+
+  /// No description provided for @hipHopRap.
+  ///
+  /// In en, this message translates to:
+  /// **'Hip-hop/Rap 🎤'**
+  String get hipHopRap;
+
+  /// No description provided for @rnb.
+  ///
+  /// In en, this message translates to:
+  /// **'R&B 🌿'**
+  String get rnb;
+
+  /// No description provided for @jazz.
+  ///
+  /// In en, this message translates to:
+  /// **'Jazz 🎵'**
+  String get jazz;
+
+  /// No description provided for @blues.
+  ///
+  /// In en, this message translates to:
+  /// **'Blues 💙'**
+  String get blues;
+
+  /// No description provided for @edm.
+  ///
+  /// In en, this message translates to:
+  /// **'EDM 🏆'**
+  String get edm;
+
+  /// No description provided for @country.
+  ///
+  /// In en, this message translates to:
+  /// **'Country 🎶'**
+  String get country;
+
+  /// No description provided for @reggae.
+  ///
+  /// In en, this message translates to:
+  /// **'Reggae 🔷'**
+  String get reggae;
+
+  /// No description provided for @classical.
+  ///
+  /// In en, this message translates to:
+  /// **'Classical ⚡'**
+  String get classical;
 }
 
 class _AppLocalizationsDelegate

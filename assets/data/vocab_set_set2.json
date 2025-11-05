@@ -1,0 +1,122 @@
+[
+    {
+        "id": "fam1",
+        "word": "Family",
+        "pronunciation": "/ˈfæm.əl.i/",
+        "partOfSpeech": "noun",
+        "meaning": "Gia đình",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam2",
+        "word": "Mother",
+        "pronunciation": "/ˈmʌð.ər/",
+        "partOfSpeech": "noun",
+        "meaning": "Mẹ",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam3",
+        "word": "Father",
+        "pronunciation": "/ˈfɑː.ðər/",
+        "partOfSpeech": "noun",
+        "meaning": "Cha",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam4",
+        "word": "Parent",
+        "pronunciation": "/ˈper.ənt/",
+        "partOfSpeech": "noun",
+        "meaning": "Cha mẹ",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam5",
+        "word": "Child",
+        "pronunciation": "/tʃaɪld/",
+        "partOfSpeech": "noun",
+        "meaning": "Con cái",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam6",
+        "word": "Son",
+        "pronunciation": "/sʌn/",
+        "partOfSpeech": "noun",
+        "meaning": "Con trai",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam7",
+        "word": "Daughter",
+        "pronunciation": "/ˈdɔː.tər/",
+        "partOfSpeech": "noun",
+        "meaning": "Con gái",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam8",
+        "word": "Brother",
+        "pronunciation": "/ˈbrʌð.ər/",
+        "partOfSpeech": "noun",
+        "meaning": "Anh/Em trai",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam9",
+        "word": "Sister",
+        "pronunciation": "/ˈsɪs.tər/",
+        "partOfSpeech": "noun",
+        "meaning": "Chị/Em gái",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam10",
+        "word": "Sibling",
+        "pronunciation": "/ˈsɪb.lɪŋ/",
+        "partOfSpeech": "noun",
+        "meaning": "Anh chị em ruột",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam11",
+        "word": "Grandfather",
+        "pronunciation": "/ˈɡræn.fɑː.ðər/",
+        "partOfSpeech": "noun",
+        "meaning": "Ông",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam12",
+        "word": "Grandmother",
+        "pronunciation": "/ˈɡræn.mʌð.ər/",
+        "partOfSpeech": "noun",
+        "meaning": "Bà",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam13",
+        "word": "Grandparent",
+        "pronunciation": "/ˈɡræn.per.ənt/",
+        "partOfSpeech": "noun",
+        "meaning": "Ông bà",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam14",
+        "word": "Love",
+        "pronunciation": "/lʌv/",
+        "partOfSpeech": "verb",
+        "meaning": "Yêu thương",
+        "audioUrl": ""
+    },
+    {
+        "id": "fam15",
+        "word": "Home",
+        "pronunciation": "/hoʊm/",
+        "partOfSpeech": "noun",
+        "meaning": "Mái ấm",
+        "audioUrl": ""
+    }
+]

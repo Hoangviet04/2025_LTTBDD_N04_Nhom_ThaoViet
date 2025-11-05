@@ -44,6 +44,7 @@
   "email": "Email",
   "address": "Address",
   "button_search_video": "Search video, topic",
+  "button_search_song": "Search song or artist...",
   "video_hot_list_title": "Trending",
   "num_lessons": "number of lessons",
   "video_topic_all": "Learning by topics",
@@ -59,5 +60,49 @@
     "placeholders": {
       "level": {}
     }
-  }
+  },
+  "vocab_store_title": "Word Store",
+  "vocab_sets_title": "Vocabulary Sets",
+  "vocab_sets_search_hint": "Search vocabulary sets",
+  "vocab_store_title": "Word Store",
+  "vocab_sets_title": "Vocabulary Sets",
+  "vocab_sets_search_hint": "Search vocabulary sets",
+  "vocab_store_title": "Word Store",
+  "vocab_sets_title": "Vocabulary Sets",
+  "vocab_sets_search_hint": "Search vocabulary sets",
+  "trending": "Trending 🔥",
+  "hotThisWeek": "Hot this week",
+  "forYou": "For you",
+  "artist": "Artist",
+  "hotSongNumber": "Hot Song #{number}",
+  "@hotSongNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "forYouSongNumber": "Song for you #{number}",
+  "@forYouSongNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "views": "views",
+  "lessons": "lessons",
+  "discoverGenres": "Discover Genres 🌈",
+  "pop": "Pop 🎧",
+  "rock": "Rock 📈",
+  "hipHopRap": "Hip-hop/Rap 🎤",
+  "rnb": "R&B 🌿",
+  "jazz": "Jazz 🎵",
+  "blues": "Blues 💙",
+  "edm": "EDM 🏆",
+  "country": "Country 🎶",
+  "reggae": "Reggae 🔷",
+  "classical": "Classical ⚡",
+  "vocab_sets_search_hint": "Search vocabulary sets",
+  "vocab_sets_search_hint": "Search vocabulary sets"
 }

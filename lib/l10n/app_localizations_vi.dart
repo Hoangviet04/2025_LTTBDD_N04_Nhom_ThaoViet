@@ -122,6 +122,9 @@ class AppLocalizationsVi extends AppLocalizations {
   String get button_search_video => 'Tìm video, chủ đề';
 
   @override
+  String get button_search_song => 'Tìm kiếm bài hát hoặc nghệ sĩ';
+
+  @override
   String get video_hot_list_title => 'Đang thịnh hành';
 
   @override
@@ -155,4 +158,74 @@ class AppLocalizationsVi extends AppLocalizations {
   String video_by_level_title(Object level) {
     return 'Video trình độ $level';
   }
+
+  @override
+  String get vocab_store_title => 'Kho từ';
+
+  @override
+  String get vocab_sets_title => 'Bộ từ vựng';
+
+  @override
+  String get vocab_sets_search_hint => 'Tìm bộ từ vựng';
+
+  @override
+  String get trending => 'Xu hướng 🔥';
+
+  @override
+  String get hotThisWeek => 'Hot trong tuần';
+
+  @override
+  String get forYou => 'Dành cho bạn';
+
+  @override
+  String get artist => 'Nghệ sĩ';
+
+  @override
+  String hotSongNumber(int number) {
+    return 'Bài hát hot #$number';
+  }
+
+  @override
+  String forYouSongNumber(int number) {
+    return 'Bài hát cho bạn #$number';
+  }
+
+  @override
+  String get views => 'lượt xem';
+
+  @override
+  String get lessons => 'lượt học';
+
+  @override
+  String get discoverGenres => 'Khám phá thể loại 🌈';
+
+  @override
+  String get pop => 'Nhạc Pop 🎧';
+
+  @override
+  String get rock => 'Nhạc Rock 📈';
+
+  @override
+  String get hipHopRap => 'Nhạc Hip-hop/Rap 🎤';
+
+  @override
+  String get rnb => 'Nhạc R&B 🌿';
+
+  @override
+  String get jazz => 'Nhạc Jazz 🎵';
+
+  @override
+  String get blues => 'Nhạc Blues 💙';
+
+  @override
+  String get edm => 'EDM 🏆';
+
+  @override
+  String get country => 'Nhạc Đồng Quê 🎶';
+
+  @override
+  String get reggae => 'Nhạc Reggae 🔷';
+
+  @override
+  String get classical => 'Nhạc Cổ Điển ⚡';
 }
