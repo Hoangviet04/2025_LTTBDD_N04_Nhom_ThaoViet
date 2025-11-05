@@ -234,4 +234,25 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get latestSongs => 'Bài hát mới nhất';
+
+  @override
+  String get vocab_store_progress_broad => 'Tiến trình của tôi';
+
+  @override
+  String get total_learned => 'Tổng số từ đã học:';
+
+  @override
+  String get words_learned => 'Từ vựng';
+
+  @override
+  String get streak_of_me => 'Chuỗi:';
+
+  @override
+  String get days => 'Ngày';
+
+  @override
+  String get words_learned_week => 'Từ đã học tuần này:';
+
+  @override
+  String get vocab_store_my_notebook => 'Sổ tay của tôi';
 }

@@ -535,6 +535,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Latest Songs'**
   String get latestSongs;
+
+  /// No description provided for @vocab_store_progress_broad.
+  ///
+  /// In en, this message translates to:
+  /// **'My progress'**
+  String get vocab_store_progress_broad;
+
+  /// No description provided for @total_learned.
+  ///
+  /// In en, this message translates to:
+  /// **'Total learned words:'**
+  String get total_learned;
+
+  /// No description provided for @words_learned.
+  ///
+  /// In en, this message translates to:
+  /// **'Words'**
+  String get words_learned;
+
+  /// No description provided for @streak_of_me.
+  ///
+  /// In en, this message translates to:
+  /// **'Streak:'**
+  String get streak_of_me;
+
+  /// No description provided for @days.
+  ///
+  /// In en, this message translates to:
+  /// **'Days'**
+  String get days;
+
+  /// No description provided for @words_learned_week.
+  ///
+  /// In en, this message translates to:
+  /// **'Words learned this week:'**
+  String get words_learned_week;
+
+  /// No description provided for @vocab_store_my_notebook.
+  ///
+  /// In en, this message translates to:
+  /// **'My Notebook'**
+  String get vocab_store_my_notebook;
 }
 
 class _AppLocalizationsDelegate
