@@ -3,15 +3,13 @@ import 'package:vibeng/l10n/app_localizations.dart';
 import 'dart:convert';
 import 'package:vibeng/theme.dart';
 import 'package:vibeng/screens/team_info_screen.dart';
-import 'package:flutter/services.dart'
-    show rootBundle;
+import 'package:flutter/services.dart' show rootBundle;
 
 class UserScreen extends StatefulWidget {
   const UserScreen({super.key});
 
   @override
-  State<UserScreen> createState() =>
-      _UserScreenState();
+  State<UserScreen> createState() => _UserScreenState();
 }
 
 class _UserScreenState extends State<UserScreen> {
@@ -24,8 +22,9 @@ class _UserScreenState extends State<UserScreen> {
   }
 
   Future<void> _loadUsername() async {
-    final String response = await rootBundle
-        .loadString('assets/data/steaks.json');
+    final String response = await rootBundle.loadString(
+      'assets/data/steaks.json',
+    );
     final data = await json.decode(response);
     setState(() {
       _username = data['username'];
@@ -54,9 +53,7 @@ class _UserScreenState extends State<UserScreen> {
                   backgroundColor: Colors.white,
                   child: const CircleAvatar(
                     radius: 80,
-                    backgroundImage: AssetImage(
-                      'assets/imgs/takopi_bia.png',
-                    ),
+                    backgroundImage: AssetImage('assets/imgs/takopi_bia.png'),
                   ),
                 ),
               ),
@@ -65,16 +62,11 @@ class _UserScreenState extends State<UserScreen> {
           const SizedBox(height: 69.33),
           Text(
             _username,
-            style: const TextStyle(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
-            ),
+            style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 32),
           Padding(
-            padding: const EdgeInsets.symmetric(
-              horizontal: 20.0,
-            ),
+            padding: const EdgeInsets.symmetric(horizontal: 20.0),
             child: SizedBox(
               width: double.infinity,
               child: ElevatedButton(
@@ -82,8 +74,7 @@ class _UserScreenState extends State<UserScreen> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) =>
-                          const TeamInfoScreen(),
+                      builder: (context) => const TeamInfoScreen(),
                     ),
                   );
                 },
@@ -91,8 +82,7 @@ class _UserScreenState extends State<UserScreen> {
                   backgroundColor: buttonColor,
                   foregroundColor: Colors.black,
                   shape: RoundedRectangleBorder(
-                    borderRadius:
-                        BorderRadius.circular(5),
+                    borderRadius: BorderRadius.circular(5),
                   ),
                 ),
                 child: Row(
@@ -117,8 +107,7 @@ class _UserScreenState extends State<UserScreen> {
                 backgroundColor: buttonColor,
                 foregroundColor: Colors.black,
                 shape: RoundedRectangleBorder(
-                  borderRadius:
-                      BorderRadius.circular(5),
+                  borderRadius: BorderRadius.circular(5),
                 ),
               ),
               child: Row(

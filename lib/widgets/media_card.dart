@@ -33,7 +33,6 @@ class MediaCard extends StatelessWidget {
 
     return Container(
       width: width,
-      margin: const EdgeInsets.only(right: 12),
       child: InkWell(
         onTap: () {
           if (isSong) {

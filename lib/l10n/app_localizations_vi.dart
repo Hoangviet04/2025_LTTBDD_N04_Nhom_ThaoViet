@@ -45,6 +45,12 @@ class AppLocalizationsVi extends AppLocalizations {
   String get home_reviewToday => 'Ôn tập hôm nay';
 
   @override
+  String get english => 'Tiếng Anh';
+
+  @override
+  String get level => 'Cấp độ';
+
+  @override
   String home_hello(String username) {
     return 'Xin chào $username,';
   }
@@ -255,4 +261,16 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get vocab_store_my_notebook => 'Sổ tay của tôi';
+
+  @override
+  String get activity_title => 'Hoạt động';
+
+  @override
+  String get activity_tab_learned => 'Đã học';
+
+  @override
+  String get activity_tab_liked => 'Đã thích';
+
+  @override
+  String get activity_tab_viewed => 'Đã xem';
 }
