@@ -11,7 +11,7 @@ class VideoModel {
   final String imageUrl;
   final String level;
 
-  VideoModel({
+  const VideoModel({
     required this.id,
     required this.title,
     required this.views,
@@ -25,10 +25,12 @@ class VideoModel {
 
   factory VideoModel.fromJson(Map<String, dynamic> json) {
     return VideoModel(
-      id: json['id'] ?? '',
+      id: json['id']?.toString() ?? '',
       title: json['title'] ?? '',
       views: json['views'] ?? '',
-      numberOfLessons: json['numberOfLessons'] ?? 0,
+      numberOfLessons: json['numberOfLessons'] is int
+          ? json['numberOfLessons']
+          : int.tryParse(json['numberOfLessons'].toString()) ?? 0,
       videoTime: json['videoTime'] ?? '',
       topic: json['topic'] ?? '',
       videoUrl: json['videoUrl'] ?? '',
@@ -36,12 +38,21 @@ class VideoModel {
       level: json['level'] ?? '',
     );
   }
+
+  Map<String, dynamic> toJson() => {
+    'id': id,
+    'title': title,
+    'views': views,
+    'numberOfLessons': numberOfLessons,
+    'videoTime': videoTime,
+    'topic': topic,
+    'videoUrl': videoUrl,
+    'imageUrl': imageUrl,
+    'level': level,
+  };
 }
 
 List<VideoModel> videoModelFromJson(String str) {
   final List<dynamic> jsonData = json.decode(str);
-  final List<VideoModel> videoList = jsonData.map((item) {
-    return VideoModel.fromJson(item);
-  }).toList();
-  return videoList;
+  return jsonData.map((item) => VideoModel.fromJson(item)).toList();
 }
