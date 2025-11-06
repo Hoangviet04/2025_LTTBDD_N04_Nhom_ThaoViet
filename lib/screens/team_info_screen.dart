@@ -33,7 +33,7 @@ class TeamInfoScreen extends StatelessWidget {
                     imagePath:
                         'assets/imgs/cat1.jpg',
                     studentId: '22010496',
-                    phone: '0965201517',
+                    phone: '0999999999',
                     email:
                         '22010496@st.phenikaa-uni.edu.vn',
                     address: 'Hưng Yên, Việt Nam',
@@ -66,7 +66,7 @@ class TeamInfoScreen extends StatelessWidget {
                     imagePath:
                         'assets/imgs/cat2.jpg',
                     studentId: '22010354',
-                    phone: '0396802204',
+                    phone: '0333333333',
                     email:
                         '22010354@st.phenikaa-uni.edu.vn',
                     address: 'Hà Nội, Việt Nam',
