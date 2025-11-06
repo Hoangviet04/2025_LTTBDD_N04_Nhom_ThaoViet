@@ -45,6 +45,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get home_reviewToday => 'Review Today';
 
   @override
+  String get english => 'English';
+
+  @override
+  String get level => 'Level';
+
+  @override
   String home_hello(String username) {
     return 'Hello $username,';
   }
@@ -255,4 +261,16 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get vocab_store_my_notebook => 'My Notebook';
+
+  @override
+  String get activity_title => 'Activity';
+
+  @override
+  String get activity_tab_learned => 'Learned';
+
+  @override
+  String get activity_tab_liked => 'Liked';
+
+  @override
+  String get activity_tab_viewed => 'Viewed';
 }

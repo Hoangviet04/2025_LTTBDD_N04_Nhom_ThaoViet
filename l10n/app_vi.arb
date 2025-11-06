@@ -12,6 +12,8 @@
   "home_learnThrough": "Học qua",
   "home_streakProgress": "Chuỗi ngày & Tiến độ",
   "home_reviewToday": "Ôn tập hôm nay",
+  "english": "Tiếng Anh",
+  "level": "Cấp độ",
   "home_hello": "Xin chào {username},",
   "@home_hello": {
     "placeholders": {
@@ -105,5 +107,9 @@
   "days": "Ngày",
   "words_learned_week": "Từ đã học tuần này:",
   "vocab_store_my_notebook": "Sổ tay của tôi",
-  "latestSongs": "Bài hát mới nhất"
+  "latestSongs": "Bài hát mới nhất",
+  "activity_title": "Hoạt động",
+  "activity_tab_learned": "Đã học",
+  "activity_tab_liked": "Đã thích",
+  "activity_tab_viewed": "Đã xem"
 }

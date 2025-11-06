@@ -12,6 +12,8 @@
   "home_learnThrough": "Learn Through",
   "home_streakProgress": "Streak & Progress",
   "home_reviewToday": "Review Today",
+  "english": "English",
+  "level": "Level",
   "home_hello": "Hello {username},",
   "@home_hello": {
     "placeholders": {
@@ -105,5 +107,9 @@
   "streak_of_me": "Streak:",
   "days": "Days",
   "words_learned_week": "Words learned this week:",
-  "vocab_store_my_notebook": "My Notebook"
+  "vocab_store_my_notebook": "My Notebook",
+  "activity_title": "Activity",
+  "activity_tab_learned": "Learned",
+  "activity_tab_liked": "Liked",
+  "activity_tab_viewed": "Viewed"
 }

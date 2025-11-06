@@ -170,6 +170,18 @@ abstract class AppLocalizations {
   /// **'Review Today'**
   String get home_reviewToday;
 
+  /// No description provided for @english.
+  ///
+  /// In en, this message translates to:
+  /// **'English'**
+  String get english;
+
+  /// No description provided for @level.
+  ///
+  /// In en, this message translates to:
+  /// **'Level'**
+  String get level;
+
   /// No description provided for @home_hello.
   ///
   /// In en, this message translates to:
@@ -577,6 +589,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'My Notebook'**
   String get vocab_store_my_notebook;
+
+  /// No description provided for @activity_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Activity'**
+  String get activity_title;
+
+  /// No description provided for @activity_tab_learned.
+  ///
+  /// In en, this message translates to:
+  /// **'Learned'**
+  String get activity_tab_learned;
+
+  /// No description provided for @activity_tab_liked.
+  ///
+  /// In en, this message translates to:
+  /// **'Liked'**
+  String get activity_tab_liked;
+
+  /// No description provided for @activity_tab_viewed.
+  ///
+  /// In en, this message translates to:
+  /// **'Viewed'**
+  String get activity_tab_viewed;
 }
 
 class _AppLocalizationsDelegate

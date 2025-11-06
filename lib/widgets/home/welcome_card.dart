@@ -86,9 +86,9 @@ class _WelcomeCardState extends State<WelcomeCard> {
                 children: [
                   Image.asset('assets/icons/UK.png', width: 24, height: 24),
                   const SizedBox(width: 8),
-                  const Text(
-                    "Tiếng Anh",
-                    style: TextStyle(fontWeight: FontWeight.bold),
+                  Text(
+                    l10n.english,
+                    style: const TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ],
               ),
