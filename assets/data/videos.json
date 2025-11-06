@@ -7,7 +7,7 @@
         "videoTime": "10:32",
         "topic": "Podcast",
         "level": "B1",
-        "videoUrl": "https://example.com/video/v1",
+        "videoUrl": "https://youtu.be/F94agwN6Xc0",
         "imageUrl": "assets/imgs/wakeup.jpg"
     },
     {
@@ -18,7 +18,7 @@
         "videoTime": "05:15",
         "topic": "Food & Lifestyle",
         "level": "A1",
-        "videoUrl": "https://example.com/video/v2",
+        "videoUrl": "https://youtu.be/F94agwN6Xc0",
         "imageUrl": "assets/imgs/ask.jpg"
     },
     {
@@ -29,7 +29,7 @@
         "videoTime": "05:15",
         "topic": "Food & Lifestyle",
         "level": "A1",
-        "videoUrl": "https://example.com/video/v2",
+        "videoUrl": "https://youtu.be/F94agwN6Xc0",
         "imageUrl": "assets/imgs/ask.jpg"
     }
 ]
