@@ -22,42 +22,25 @@ VibeNG giúp người học tiếp cận từ vựng tiếng Anh qua nhiều hì
 - **Localization (l10n):** Đa ngôn ngữ với file arb, lớp AppLocalizations.
 - **Điều hướng:** BottomNavBar chia 4 khu vực: Home, Kho từ, Hoạt động, Người dùng.
 
-### Sơ đồ tổng quan kiến trúc (PlantUML)
-```plantuml
-@startuml
-package "UI (screens)" {
-	class HomeScreen
-	class VocabStoreScreen
-	class ActivityScreen
-	class UserScreen
-}
-package "Widgets" {
-	class BottomNavBar
-	class WelcomeCard
-	class SectionHeader
-}
-package "Repositories" {
-	class VocabularyRepository
-	class MediaRepository
-	class UserRepository
-}
-package "Models" {
-	class VocabSetModel
-	class WordDetailModel
-	class SongModel
-	class VideoModel
-	class UserDataModel
-}
-package "Localization" {
-	class AppLocalizations
-}
-UI ..> Widgets : uses
-UI ..> Repositories : fetches data
-Repositories --> Models : parses
-UI ..> Localization : strings
-Repositories ..> "assets/data" : loads JSON
-@enduml
-```
+## Hình ảnh giao diện
+
+<table align="center">
+	<tr>
+		<td><img src="screenshots/home.png" alt="Home Screen" width="600"/></td>
+		<td><img src="screenshots/vocab_store.png" alt="Vocab Store Screen" width="300"/></td>
+		<td><img src="screenshots/vocab_set_detail.png" alt="Vocab Set Detail Screen" width="300"/></td>
+	</tr>
+	<tr>
+        <td><img src="screenshots/ui_flashcard.png" alt="UI Flashcard" width="300"/></td>
+		<td><img src="screenshots/activity.png" alt="Activity Screen" width="300"/></td>
+		<td><img src="screenshots/ui_chitiet.png" alt="UI Chi tiết" width="300"/></td>
+	</tr>
+	<tr>
+        <td><img src="screenshots/ui_hocvideo.png" alt="UI Học qua video" width="300"/></td>
+		<td><img src="screenshots/ui_chedoluyentap.png" alt="UI Chế độ luyện tập" width="300"/></td>
+		<td><img src="screenshots/ui_hocquabh.png" alt="UI Học qua bài hát" width="300"/></td>
+	</tr>
+</table>
 
 ## Hướng dẫn cài đặt & chạy thử
 1. Cài đặt [Flutter SDK](https://docs.flutter.dev/get-started/install) (>=3.9.2).
