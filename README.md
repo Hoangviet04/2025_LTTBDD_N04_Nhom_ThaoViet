@@ -31,12 +31,12 @@ VibeNG giúp người học tiếp cận từ vựng tiếng Anh qua nhiều hì
 		<td><img src="screenshots/vocab_set_detail.png" alt="Vocab Set Detail Screen" width="300"/></td>
 	</tr>
 	<tr>
-        <td><img src="screenshots/ui_flashcard.png" alt="UI Flashcard" width="300"/></td>
+        <td><img src="screenshots/ui_flashcard.png" alt="UI Flashcard" width="600"/></td>
 		<td><img src="screenshots/activity.png" alt="Activity Screen" width="300"/></td>
 		<td><img src="screenshots/ui_chitiet.png" alt="UI Chi tiết" width="300"/></td>
 	</tr>
 	<tr>
-        <td><img src="screenshots/ui_hocvideo.png" alt="UI Học qua video" width="300"/></td>
+        <td><img src="screenshots/ui_hocvideo.png" alt="UI Học qua video" width="600"/></td>
 		<td><img src="screenshots/ui_chedoluyentap.png" alt="UI Chế độ luyện tập" width="300"/></td>
 		<td><img src="screenshots/ui_hocquabh.png" alt="UI Học qua bài hát" width="300"/></td>
 	</tr>
